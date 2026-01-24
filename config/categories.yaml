@@ -1,38 +1,38 @@
-categories:
-  Nature:
-    - nature
-    - landscape
-    - forest
-    - mountain
 
-  Animes:
-    - anime
-    - manga
-    - otaku
+Nature:
+  - nature
+  - landscape
+  - forest
+  - mountain
 
-  Cinema:
-    - movie
-    - film
-    - cinema
+Animes:
+  - anime
+  - manga
+  - otaku
 
-  BMX:
-    - bmx
-    - race
-    - freestyle
+Cinema:
+  - movie
+  - film
+  - cinema
 
-  Post-Apocalyptic:
-    - apocalypse
-    - wasteland
-    - ruins
+BMX:
+  - bmx
+  - race
+  - freestyle
 
-  Utopia:
-    - utopia
-    - futuristic
-    - future
+Post-Apocalyptic:
+  - apocalypse
+  - wasteland
+  - ruins
 
-  Planet:
-    - planet
-    - galaxy
-    - universe
-    - space
+Utopia:
+  - utopia
+  - futuristic
+  - future
+
+Planet:
+  - planet
+  - galaxy
+  - universe
+  - space
 
