@@ -30,6 +30,7 @@
     "**/__pycache__": true,
     "**/*.pyc": true,
     "**/.DS_Store": true,
+    "**/.ruff_cache": true
   },
   "errorLens.onSave": true,
   "errorLens.codeLensEnabled": true,
