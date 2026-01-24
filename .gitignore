@@ -1,0 +1,28 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# MAC OS files
+.DS_Store
+
+# Virtual environments
+.venv/
+venv/
+
+# Cache folders:
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# dotenv environment variable files
+.env
+.env.*
+!.env.example
+
+# Other files and directories to ignore
+.idea/
+.qodo

@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "ms-python.python",
+    "tamasfe.even-better-toml",
+    "charliermarsh.ruff",
+    "editorconfig.editorconfig",
+    "usernamehw.errorlens",
+  ]
+}

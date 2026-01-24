@@ -1,0 +1,78 @@
+# ====================================================================================
+# Build System Configuration
+# ====================================================================================
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+# [build-system]
+# requires = [ "hatchling" ]
+# build-backend = "hatchling.build"
+
+# ====================================================================================
+# Project Metadata (PEP 621)
+# ====================================================================================
+[project]
+name = "project_starter"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+license = { text = "MIT" }
+authors = [{ name = "Heliomar P. Marques", email = "heliomarpm@proton.me" }]
+classifiers = [
+  "Programming Language :: Python :: 3.13",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+keywords = ["python", "repo", "starter"]
+dynamic = ["version"]
+dependencies = [
+  "click>=8.3.1",
+  "loguru>=0.7.3",
+  "python-dotenv",
+]
+
+[project.optional-dependencies]
+dev = [
+  "ruff", "pyright", "pytest", "pytest-cov",
+  "twine", # ferramenta para publicar pacotes no PyPI
+]
+
+[project.scripts]
+my-program = "project_starter.main:example"  # executable: uv run my-program
+
+[project.urls]
+Homepage = "https://navto.me/heliomarpm/"
+"Repository" = "https://github.com/heliomarpm/python-repo-starter"
+"Documentation" = "https://github.com/heliomarpm/python-repo-starter"
+"Bug Tracker" = "https://github.com/heliomarpm/python-repo-starter/issues"
+"Changelog" = "https://github.com/heliomarpm/python-repo-starter/releases"
+
+
+
+# ====================================================================================
+# Tool Configuration for Setuptools, Ruff, etc.
+# For more information https://setuptools.pypa.io/en/latest/index.html
+# ====================================================================================
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["src/**"]
+exclude = ["tests/**", "**/__pycache__"]
+
+
+# ---- Pytest Configuration ----------------------------------------------------------
+[tool.pytest.ini_options]
+addopts = "-s --color=yes --tb=short"
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+
+# ---- Pyright Configuration ----------------------------------------------------------
+[tool.pyright]
+typeCheckingMode = "standard"
+# pythonVersion = "3.14"
+include = ["src", "tests"]
+exclude = ["**/venv", "**/.venv", "**/.env", "**/__pycache__"]
+venv = ".venv"
+venvPath = "."
+executionEnvironments = [{ root = "src" }]

@@ -1,0 +1,80 @@
+line-length = 160
+indent-width = 2
+output-format = "full"
+
+exclude = [ "*ipynb", ".venv/**", "venv/**", "__pypackages__/**", "build/**", "dist/**", ".git/**", "*_cache/**" ]
+
+[lint]
+preview = true
+select = ["ALL"]
+# select = [
+#   "A",     # evita sobrescrever nomes embutidos do Python
+#   "ANN",   # exige ou valida type hints
+#   "ASYNC", # boas práticas em código assíncrono
+#   "B",     # detecta padrões problemáticos e potenciais bugs
+#   "BLE",   # alerta sobre uso de `except:` genérico
+#   "C4",    # otimizações e boas práticas em list/dict/set comprehensions
+#   "C90",   # complexidade ciclomática (limita funções muito complexas)
+#   "COM",   # uso correto de vírgulas em coleções
+#   "E",     # estilo PEP8 (indentação, espaços, etc.)
+#   "EM",    # mensagens de erro mais claras
+#   "ERA",   # remove código comentado desnecessário
+#   "EXE",   # checa permissões de execução em arquivos
+#   "F",     # erros de variáveis não usadas, importações inválidas
+#   "FBT",   # evita parâmetros booleanos ambíguos
+#   "FIX",   # alerta sobre TODO/FIXME deixados no código
+#   "I",     # ordenação de imports
+#   "ICN",   # convenções de nomes para imports
+#   "ISC",   # evita concatenação implícita de strings
+#   "N",     # convenções de nomes (classes, funções, variáveis)
+#   "PTH",   # verificação de caminhos e importações
+#   "PT",    # boas práticas em testes
+#   "Q",     # consistência no uso de aspas
+#   "RET",   # boas práticas em retornos de funções
+#   "RSE",   # uso correto de `raise` em exceções
+#   "RUF",   # checagens adicionais específicas
+#   "S",     # segurança (uso de funções perigosas)
+#   "SIM",   # simplificação de código redundante
+#   "SLF",   # uso correto de `self` em métodos
+#   "T10",   # evita uso de `pdb` e debuggers no código
+#   "T20",   # evita uso de `print` em produção
+#   "TC",    # organização de imports para type hints
+#   "TD",    # valida formato de TODOs
+#   "TRY",   # boas práticas em blocos try/except
+#   "UP",    # atualiza sintaxe para versões modernas do Python
+#   "W",     # estilo PEP8 (avisos)
+#   "YTT",   # alerta sobre mudanças problemáticas entre versões do Python
+# ]
+ignore = [
+  "E111",   # indentação incorreta; ignorado para permitir alinhamento flexível
+  "E114",   # indentação incorreta em linhas continuadas; ignorado para permitir alinhamento flexível
+  "A004",   # evita redefinir nomes embutidos; ignorado aqui para permitir redefinições específicas
+  "ANN401", # uso de `Any` em type hints; ignorado para flexibilizar tipos
+  "COM812", # vírgula final em chamadas/estruturas; ignorado para não forçar trailing commas
+  "D",      # regras de docstring; ignorado para não exigir docstrings em todo o código
+  "ERA001", # código comentado desnecessário; ignorado para permitir comentários temporários
+  "INP001", # exige `__init__.py` em pacotes; ignorado para suportar namespace packages
+  "T201",   # uso de `print`; ignorado para permitir prints em debug ou scripts simples
+  "CPY001", # verificacao copyright; ignorado para permitir ausência de copyright em arquivos
+]
+
+# Allow fix for all enabled rules (when `--fix`) is provided.
+fixable = ["ALL"]
+unfixable = []
+
+# Allow unused variables when underscore-prefixed.
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+[lint.extend-per-file-ignores]
+"__init__.py" = ["E402"]
+"tests/**" = [ "D", "S101", "T201", "ANN201", "S101"]
+
+
+[format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "lf"
+skip-magic-trailing-comma = false
+
+docstring-code-format = true
+docstring-code-line-length = "dynamic"
