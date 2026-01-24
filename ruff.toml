@@ -1,11 +1,12 @@
+target-version = "py311"
 line-length = 160
-indent-width = 2
+indent-width = 4
 output-format = "full"
 
-exclude = [ "*ipynb", ".venv/**", "venv/**", "__pypackages__/**", "build/**", "dist/**", ".git/**", "*_cache/**" ]
+exclude = [ "*.ipynb", ".venv/**", "venv/**", "__pypackages__/**", "build/**", "dist/**", ".git/**", "*_cache/**" ]
 
 [lint]
-preview = true
+preview = false
 select = ["ALL"]
 # select = [
 #   "A",     # evita sobrescrever nomes embutidos do Python
@@ -67,7 +68,7 @@ dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
 
 [lint.extend-per-file-ignores]
 "__init__.py" = ["E402"]
-"tests/**" = [ "D", "S101", "T201", "ANN201", "S101"]
+"tests/**" = [ "D", "S101", "T201", "ANN201"]
 
 
 [format]
