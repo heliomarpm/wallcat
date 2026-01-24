@@ -1,8 +1,7 @@
-from wallcat.cli import cli
+from wallcat.cli import app
 
-
-def main() -> None:
-    cli()
+def main():
+    app()
 
 
 if __name__ == "__main__":

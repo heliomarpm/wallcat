@@ -1,70 +1,71 @@
 from pathlib import Path
-
 from loguru import logger
 
-from wallcat.core.models import ClassificationResult
-from wallcat.core.rules import RuleEngine
-
-SUPPORTED_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp", ".jfif"}
+from .rules import RuleClassifier
+from .ai.base import AIClassifier
 
 
-def organize_wallpapers(
-    base_path: Path,
-    config_path: Path,
-    plan: bool = False,
-    apply: bool = False,
-    min_confidence: float = 0.0,
-) -> list[ClassificationResult]:
-    rule_engine = RuleEngine(config_path)
-    results: list[ClassificationResult] = []
-
-    for file_path in base_path.iterdir():
-        if not file_path.is_file():
-            continue
-
-        if file_path.suffix.lower() not in SUPPORTED_EXTENSIONS:
-            continue
-
-        result = rule_engine.classify(file_path)
-
-        if result.confidence < min_confidence:
-            continue
-
-        results.append(result)
-
-    if plan:
-        _print_plan(results)
-        return results
-
-    if apply:
-        _apply_plan(base_path, results)
-        return results
-
-    return results
+IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp", ".jfif", ".bmp"}
 
 
-def _print_plan(results: list[ClassificationResult]) -> None:
-    logger.info("[PLAN]")
-    for r in results:
-        logger.info(
-            "{} -> {} (rule={}, confidence={})",
-            r.file.name,
-            r.category,
-            r.rule,
-            r.confidence,
-        )
+class Organizer:
+    def __init__(
+        self,
+        base_path: Path,
+        rule_classifier: RuleClassifier | None,
+        ai_classifier: AIClassifier | None,
+        use_ai: bool,
+        ai_only: bool,
+        min_confidence: float,
+        dry_run: bool,
+    ):
+        self.base_path = base_path
+        self.rule_classifier = rule_classifier
+        self.ai_classifier = ai_classifier
+        self.use_ai = use_ai
+        self.ai_only = ai_only
+        self.min_confidence = min_confidence
+        self.dry_run = dry_run
 
+    def run(self):
+        for file in self.base_path.iterdir():
+            if not file.is_file() or file.suffix.lower() not in IMAGE_EXTENSIONS:
+                continue
 
-def _apply_plan(base_path: Path, results: list[ClassificationResult]) -> None:
-    for r in results:
-        target_dir = base_path / r.category
+            category = None
+
+            # 1️⃣ Regras por nome
+            if self.rule_classifier and not self.ai_only:
+                category = self.rule_classifier.classify(file)
+                if category:
+                    logger.success(f"[RULE] {file.name} -> {category}")
+
+            # 2️⃣ IA
+            if (not category and self.use_ai) or self.ai_only:
+                if not self.ai_classifier:
+                    raise RuntimeError("AI habilitada mas nenhum classificador foi configurado")
+
+                ai_category, confidence = self.ai_classifier.classify(file)
+
+                if confidence >= self.min_confidence:
+                    category = ai_category
+                    logger.success(f"[AI] {file.name} -> {category} ({confidence:.2f})")
+                else:
+                    logger.info(f"[AI] {file.name} -> _Unclassified ({confidence:.2f})")
+
+            if not category:
+                category = "_Unclassified"
+
+            self._move(file, category)
+
+    def _move(self, file: Path, category: str):
+        target_dir = self.base_path / category
         target_dir.mkdir(exist_ok=True)
 
-        target_file = target_dir / r.file.name
+        target = target_dir / file.name
 
-        if target_file.exists():
-            logger.warning("File already exists, skipping: {}", target_file)
-            continue
+        if self.dry_run:
+            logger.info(f"[PLAN] {file.name} -> {category}/")
+            return
 
-        logger.info("{} -> {}", r.file.name, r.category)
-        r.file.rename(target_file)
+        file.rename(target)
