@@ -56,12 +56,6 @@ uv add <package-name>==<version>
 uv remove <package-name>
 ```
 
-* Atualizar dependências e ambiente:
-
-```bash
-uv update
-```
-
 * Instalar a partir de requirements.txt:
 
 ```bash

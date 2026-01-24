@@ -1,20 +1,23 @@
-# Wallcat - Wallpaper Catalog & Classifier
+# 🐱 Wallcat
 
-**Wallcat** is an open-source tool that automatically organizes wallpaper images into categories using a hybrid classification pipeline based on filename rules and AI-powered image understanding.
+**Wallpaper Catalog & Classifier**
 
-Designed to be simple, fast, and privacy-friendly — all processing runs locally.
+Wallcat é uma ferramenta **CLI open source** para **organizar wallpapers automaticamente por categorias**, de forma **segura, explicável e extensível**.
+
+Inspirado em ferramentas como Terraform, o Wallcat separa **decisão** de **execução**, permitindo simulação antes de qualquer alteração no filesystem.
 
 ---
 
 ## ✨ Features
 
-- 📁 Automatic wallpaper organization by category
-- ⚡ Fast rule-based classification
-- 🤖 AI fallback using CLIP for visual understanding
-- 🧠 Hybrid pipeline (rules first, AI when needed)
-- 🖱️ Windows context menu integration
-- 🧾 Metadata indexing for reclassification
-- 🛑 Dry-run mode (preview changes)
+- 📂 Organização automática de wallpapers por categoria
+- 🧠 Classificação baseada em regras (keywords)
+- 🔍 Decisões explicáveis (regra aplicada + confiança)
+- 🛡️ Modo seguro (`--plan` / `--dry-run`)
+- 🚀 Execução explícita (`--apply`)
+- 🎯 Filtro por nível de confiança
+- 🧩 Arquitetura preparada para ML e visão computacional
+- 🖥️ CLI simples e rápida
 
 ---
 
@@ -40,63 +43,197 @@ tests/
 
 ```
 
-
 ---
 
-## 🚀 Quick Start
+## 📦 Instalação
 
-### 1. Install
+### Usando `uv` (recomendado)
 
 ```bash
-git clone https://github.com/<your-user>/wallcat.git
+uv pip install wallcat
+```
+
+> ou em desenvolvimento local
+
+```bash
+git clone https://github.com/heliomarpm/wallcat.git
 cd wallcat
-pip install -r requirements.txt
+uv venv
+uv pip install -e .
 ```
 
-### 2. Run (CLI)
+## 🚀 Uso Básico
+
+> Nota: Para executar comandos em desenvolvimento, use `uv run` antes de `wallcat`
+
+### Simular classificação (nenhuma alteração no disco)
 
 ```bash
-python wallcat.py classify ./Wallpapers --mode hybrid
+wallcat classify ./Wallpapers --plan
+# ou
+wallcat classify ./Wallpapers --dry-run
 ```
 
-### 3. Windows Context Menu
+### Aplicar classificação (executa de verdade)
 
 ```bash
-wallcat install-context-menu
+wallcat classify ./Wallpapers --apply
+
+uv run wallcat ./Wallpapers
+# apply (default)
+
+uv run wallcat ./Wallpapers --plan
+# só mostra
+
+uv run wallcat ./Wallpapers --apply
+# executa
+
+uv run wallcat ./Wallpapers --plan --apply
+# mostra + executa
+
 ```
+
+> [!WARNING]
+> Wallcat nunca cria pastas ou move arquivos sem o uso explícito de --apply.
+
+## 🎯 Filtro por Confiança
+
+Ignora classificações fracas:
+
+```bash
+wallcat classify ./Wallpapers --plan --min-confidence 0.7
+```
+
+## 🧠 Classificação Explicável
+
+Cada arquivo classificado retorna:
+
+- Categoria
+- Regra aplicada
+- Nível de confiança
+
+Exemplo interno:
+
+```python
+ClassificationResult(
+    file=Path("SPBMX.png"),
+    category="BMX",
+    rule="keyword:bmx",
+    confidence=0.8
+)
+```
+
+Isso permite:
+
+- Revisão humana
+- Auditoria
+- Evolução para ML
+- Testes determinísticos
+
+## ⚙️ Arquivo de Configuração
 
 > Right-click any folder and select “Classify Wallpapers”
 
 ## ⚙️ Classification Modes
 
-| Mode | Description |
-|------|-------------|
-| **rules** | Filename-based rules only |
-| **hybrid** | Rules first, AI fallback (default) |
-| **ai** | AI-based classification only |
+As categorias são definidas em YAML.
 
-## 🧠 How It Works
+`config/categories.yaml`
 
-1. Scan image files
-2. Try rule-based classification
-3. If not matched, apply AI classification
-4. Move file to target category
-5. Save metadata locally
+```yaml
+Nature:
+  - nature
+  - forest
+  - mountain
+  - lake
+  - landscape
 
-## 📦 Tech Stack
+BMX:
+  - bmx
+  - bike
+  - cycling
 
-1. Python 3.10+
-2. OpenCLIP
-3. PyInstaller
-4. YAML (configuration)
-5. JSON (metadata)
+Utopia:
+  - future
+  - utopia
+  - cyber
+
+_PostApocalyptic:
+  - apocalypse
+  - ruin
+  - decay
+```
+
+> Arquivos sem match são enviados para: `_Unclassified/`
+
+## 🧩 Arquitetura
+
+### Fluxo de Trabalho
+
+> scan → classify → plan → apply
+
+### Componentes principais
+
+```bash
+wallcat/
+├── cli.py              # CLI (Click)
+├── main.py             # Entry point
+├── core/
+│   ├── models.py       # ClassificationResult
+│   ├── rules.py        # RuleEngine
+│   └── organizer.py    # Plan / Apply
+```
+
+## 🛡️ Filosofia de Segurança
+
+- ❌ Nenhuma modificação implícita
+- ✅ Execução somente com --apply
+- 🧪 Simulação sempre disponível
+- 📜 Logs claros e rastreáveis
+
+Wallcat é feito para confiança antes de automação.
+
+---
 
 ## 🛣️ Roadmap
 
-See [ROADMAP.md](./ROADMAP.md)
+✅ Fase 1 — Base (concluída)
+
+- [x] CLI funcional
+- [x] Classificação por regras
+- [x] Modo plan/apply
+- [x] Decisões explicáveis
+
+🔜 Fase 2 — Integração com SO
+
+- [ ] Menu contextual (Windows / Linux / macOS)
+- [ ] Execução com botão direito
+
+🔜 Fase 3 — Inteligência
+
+- [ ] Classificação por conteúdo da imagem
+- [ ] CLIP / embeddings
+- [ ] Aprendizado incremental
+
+🔜 Fase 4 — UX
+
+- [ ] UI gráfica
+- [ ] Preview antes de aplicar
+- [ ] Undo / rollback
+
+## 🤝 Contribuindo
+
+Pull requests são bem-vindos.
+
+Sugestões:
+
+- Novas regras
+- Melhorias de UX
+- Integração com ML
+- Testes e documentação
 
 ## 📜 License
 
 MIT License
-
+> “Organizar não é mover arquivos, é tomar decisões seguras.”
 ---
