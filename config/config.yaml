@@ -1,0 +1,52 @@
+categories:
+  Natureza:
+    prompt: "A peaceful photo of nature, mountains, forests, oceans or green landscapes"
+    keywords: ["nature", "natureza", "landscape", "forest", "mountain", "floresta", "ocean", "beach", "lake"]
+
+  Tecnologia:
+    prompt: "A photo of computers, hardware, circuits, electronics or high-tech gadgets"
+    keywords: ["tech", "technology", "setup", "pc", "computer", "hardware", "cpu", "server", "eletronico"]
+
+  Space:
+    prompt: "A stunning photo of outer space, stars, galaxies, planets, nebulas or the universe"
+    keywords: ["space", "espaco", "galaxy", "galaxia", "stars", "planet", "planeta", "nebula", "cosmos", "universe"]
+
+  Cyberpunk:
+    prompt: "A futuristic city at night with neon lights, rainy streets, and synthwave aesthetics"
+    keywords: ["cyberpunk", "neon", "night-city", "futuristic", "synthwave", "retrowave", "blade-runner"]
+
+  Minimalista:
+    prompt: "A minimalist wallpaper with clean lines, simple colors, lots of whitespace and few objects"
+    keywords: ["minimalist", "minimalista", "clean", "simple", "flat", "whitespace"]
+
+  Anime:
+    prompt: "A high-quality illustration in Japanese anime, manga art style or studio ghibli style"
+    keywords: ["anime", "manga", "otaku", "fanart", "ghibli", "kawaii", "illustration"]
+
+  Abstrato:
+    prompt: "Abstract art with geometric shapes, colorful patterns, liquid textures or 3D renders"
+    keywords: ["abstract", "abstrato", "geometric", "pattern", "liquid", "texture", "shapes", "3d-render"]
+
+  Arquitetura:
+    prompt: "A professional photo of modern buildings, skyscrapers, bridges, or urban cityscapes"
+    keywords: ["architecture", "arquitetura", "building", "skyscraper", "cityscape", "bridge", "urban", "monument"]
+
+  Digital_Art:
+    prompt: "A digital painting, concept art, fantasy illustration or wallpaper art"
+    keywords: ["digital-art", "concept-art", "painting", "fantasy", "artwork", "deviantart", "vfx"]
+
+  Ciclismo:
+    prompt: "A photo of bicycles, BMX bikes, pump tracks, dirt jump parks, or bicycle racing"
+    keywords: ["bmx", "bike", "bicycle", "bicicleta", "cycling", "ciclismo", "freestyle", "pumptrack", "dirtjump", "velodromo"]
+
+  Cinema:
+    prompt: "A cinematic shot from a movie, film frame, or movie poster"
+    keywords: ["movie", "film", "cinema", "hollywood", "shot", "poster"]
+
+  Pos-apocalipse:
+    prompt: "A wasteland with ruins, destroyed buildings, and post-apocalyptic scenery like Fallout"
+    keywords: ["apocalypse", "apocalipse", "wasteland", "ruins", "ruinas", "destroyed", "decay"]
+
+  Utopia:
+    prompt: "A futuristic utopian city with white buildings, green plants, and advanced clean technology"
+    keywords: ["utopia", "utopian", "future", "solarpunk", "advanced", "paradise"]

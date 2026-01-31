@@ -1,0 +1,739 @@
+2026-01-25 02:02:01.734 | ERROR    | wallcat.main:load_config:38 - Arquivo de configuração não encontrado em: <red>D:\WORKS\DEV\python\wallcat\config.yaml</red>
+2026-01-25 02:02:01.735 | WARNING  | wallcat.main:default_categories:27 - Usando categorias padrão (Natureza, Espaço, Tecnologia) pois o YAML não foi encontrado.
+2026-01-25 02:02:01.735 | INFO     | wallcat.main:get_clip:21 - Carregando modelo CLIP no dispositivo: <yellow>CPU</yellow>
+2026-01-25 02:02:04.592 | INFO     | wallcat.main:classify:95 - Fonte: <blue>C:\Users\helio\OneDrive\Imagens\Wallpapers</blue> | Destino: <blue>C:\Users\helio\OneDrive\Imagens\Wallpapers</blue>
+2026-01-25 02:02:04.592 | INFO     | wallcat.main:classify:97 - <yellow>MODO DRY-RUN ATIVADO</yellow>
+2026-01-25 02:02:05.066 | ERROR    | wallcat.main:classify:129 - Falha em 02547_BG.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:02:05.202 | ERROR    | wallcat.main:classify:129 - Falha em 1 - NLW #05 - 1920x1080.png: attempt to get argmax of an empty sequence
+2026-01-25 02:02:05.291 | ERROR    | wallcat.main:classify:129 - Falha em 11151015020182.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:02:05.378 | ERROR    | wallcat.main:classify:129 - Falha em 11151046829183.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:02:05.462 | ERROR    | wallcat.main:classify:129 - Falha em 11151201553187.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:02:05.550 | ERROR    | wallcat.main:classify:129 - Falha em 11151224423188.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:02:05.632 | ERROR    | wallcat.main:classify:129 - Falha em 11151508614195.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:02:05.715 | ERROR    | wallcat.main:classify:129 - Falha em 11151918778214.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:02:05.806 | ERROR    | wallcat.main:classify:129 - Falha em 11151951023219.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:02:05.901 | ERROR    | wallcat.main:classify:129 - Falha em 11152048416224.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:02:06.034 | ERROR    | wallcat.main:classify:129 - Falha em 11152108400225.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:02:06.152 | ERROR    | wallcat.main:classify:129 - Falha em 11152145122231.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:02:06.240 | ERROR    | wallcat.main:classify:129 - Falha em 11152210816234.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:02:06.324 | ERROR    | wallcat.main:classify:129 - Falha em 11152242874238.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:02:06.405 | ERROR    | wallcat.main:classify:129 - Falha em 11152312889241.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:02:06.489 | ERROR    | wallcat.main:classify:129 - Falha em 11152354057246.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:02:06.570 | ERROR    | wallcat.main:classify:129 - Falha em 11152419345248.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:02:06.666 | ERROR    | wallcat.main:classify:129 - Falha em 112504_Papel-de-Parede-Transformers--112504_1920x1200.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:02:06.758 | ERROR    | wallcat.main:classify:129 - Falha em 113690_Papel-de-Parede-Resident-Evil-3-A-Extincao-Resident-Evil-Extinction--113690_1280x1024.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:02:06.855 | ERROR    | wallcat.main:classify:129 - Falha em 120315_Papel-de-Parede-Escudo-pegando-fogo_1920x1200.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:02:06.955 | ERROR    | wallcat.main:classify:129 - Falha em 12M2610155J50-94422.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:02:07.040 | ERROR    | wallcat.main:classify:129 - Falha em 143241_Papel-de-Parede-Transformers--143241_1280x800.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:02:07.133 | ERROR    | wallcat.main:classify:129 - Falha em 144155_Papel-de-Parede-Transformers--144155_1280x800.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:02:07.230 | ERROR    | wallcat.main:classify:129 - Falha em 144670_Papel-de-Parede-Homem-de-Ferro-Iron-Man--144670_1280x800.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:02:07.354 | ERROR    | wallcat.main:classify:129 - Falha em 148142_Papel-de-Parede-Homem-de-Ferro-Iron-Man--148142_1280x800.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:02:07.451 | ERROR    | wallcat.main:classify:129 - Falha em 195523_Papel-de-Parede-Need-For-Speed--195523_1400x1050.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:02:07.545 | ERROR    | wallcat.main:classify:129 - Falha em 2013-03-29 002.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:02:07.643 | ERROR    | wallcat.main:classify:129 - Falha em 2013-03-29 003.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:02:07.731 | ERROR    | wallcat.main:classify:129 - Falha em 2013-04-20 004.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:51.184 | ERROR    | wallcat.main:load_config:38 - Arquivo de configuração não encontrado em: <red>D:\WORKS\DEV\python\wallcat\config.yaml</red>
+2026-01-25 02:08:51.185 | WARNING  | wallcat.main:default_categories:27 - Usando categorias padrão (Natureza, Espaço, Tecnologia) pois o YAML não foi encontrado.
+2026-01-25 02:08:51.185 | INFO     | wallcat.main:get_clip:21 - Carregando modelo CLIP no dispositivo: <yellow>CPU</yellow>
+2026-01-25 02:08:54.135 | INFO     | wallcat.main:classify:95 - Fonte: <blue>C:\Users\helio\OneDrive\Imagens\Wallpapers</blue> | Destino: <blue>C:\Users\helio\OneDrive\Imagens\Wallpapers</blue>
+2026-01-25 02:08:54.135 | INFO     | wallcat.main:classify:97 - <yellow>MODO DRY-RUN ATIVADO</yellow>
+2026-01-25 02:08:54.266 | ERROR    | wallcat.main:classify:129 - Falha em 02547_BG.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:54.405 | ERROR    | wallcat.main:classify:129 - Falha em 1 - NLW #05 - 1920x1080.png: attempt to get argmax of an empty sequence
+2026-01-25 02:08:54.498 | ERROR    | wallcat.main:classify:129 - Falha em 11151015020182.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:54.592 | ERROR    | wallcat.main:classify:129 - Falha em 11151046829183.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:54.683 | ERROR    | wallcat.main:classify:129 - Falha em 11151201553187.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:54.777 | ERROR    | wallcat.main:classify:129 - Falha em 11151224423188.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:54.866 | ERROR    | wallcat.main:classify:129 - Falha em 11151508614195.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:55.084 | ERROR    | wallcat.main:classify:129 - Falha em 11151918778214.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:55.262 | ERROR    | wallcat.main:classify:129 - Falha em 11151951023219.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:55.393 | ERROR    | wallcat.main:classify:129 - Falha em 11152048416224.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:55.498 | ERROR    | wallcat.main:classify:129 - Falha em 11152108400225.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:55.575 | ERROR    | wallcat.main:classify:129 - Falha em 11152145122231.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:55.664 | ERROR    | wallcat.main:classify:129 - Falha em 11152210816234.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:55.764 | ERROR    | wallcat.main:classify:129 - Falha em 11152242874238.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:55.852 | ERROR    | wallcat.main:classify:129 - Falha em 11152312889241.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:55.937 | ERROR    | wallcat.main:classify:129 - Falha em 11152354057246.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:56.022 | ERROR    | wallcat.main:classify:129 - Falha em 11152419345248.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:56.120 | ERROR    | wallcat.main:classify:129 - Falha em 112504_Papel-de-Parede-Transformers--112504_1920x1200.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:56.216 | ERROR    | wallcat.main:classify:129 - Falha em 113690_Papel-de-Parede-Resident-Evil-3-A-Extincao-Resident-Evil-Extinction--113690_1280x1024.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:56.323 | ERROR    | wallcat.main:classify:129 - Falha em 120315_Papel-de-Parede-Escudo-pegando-fogo_1920x1200.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:56.459 | ERROR    | wallcat.main:classify:129 - Falha em 12M2610155J50-94422.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:56.558 | ERROR    | wallcat.main:classify:129 - Falha em 143241_Papel-de-Parede-Transformers--143241_1280x800.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:56.656 | ERROR    | wallcat.main:classify:129 - Falha em 144155_Papel-de-Parede-Transformers--144155_1280x800.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:56.770 | ERROR    | wallcat.main:classify:129 - Falha em 144670_Papel-de-Parede-Homem-de-Ferro-Iron-Man--144670_1280x800.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:56.877 | ERROR    | wallcat.main:classify:129 - Falha em 148142_Papel-de-Parede-Homem-de-Ferro-Iron-Man--148142_1280x800.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:56.990 | ERROR    | wallcat.main:classify:129 - Falha em 195523_Papel-de-Parede-Need-For-Speed--195523_1400x1050.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:57.096 | ERROR    | wallcat.main:classify:129 - Falha em 2013-03-29 002.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:57.201 | ERROR    | wallcat.main:classify:129 - Falha em 2013-03-29 003.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:57.302 | ERROR    | wallcat.main:classify:129 - Falha em 2013-04-20 004.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:57.415 | ERROR    | wallcat.main:classify:129 - Falha em 212024_Papel-de-Parede-Led-Zeppelin--212024_1600x1200.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:57.527 | ERROR    | wallcat.main:classify:129 - Falha em 233465_Papel-de-Parede-Transformers--233465_1280x1024.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:57.687 | ERROR    | wallcat.main:classify:129 - Falha em 233850_Papel-de-Parede-Transformers--233850_1280x1024.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:57.850 | ERROR    | wallcat.main:classify:129 - Falha em 278150_Papel-de-Parede-Knights-of-Amalur-Reckoning_1440x900.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:57.962 | ERROR    | wallcat.main:classify:129 - Falha em 3670374-200143-1280.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:58.062 | ERROR    | wallcat.main:classify:129 - Falha em 3670374-200147-1280.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:58.150 | ERROR    | wallcat.main:classify:129 - Falha em 3670374-200148-1280.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:58.253 | ERROR    | wallcat.main:classify:129 - Falha em 3670374-200152-1280.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:58.342 | ERROR    | wallcat.main:classify:129 - Falha em 46821_Papel-de-Parede-Agua-em-Movimento-3D_1440x900.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:58.432 | ERROR    | wallcat.main:classify:129 - Falha em 532661-istock-825167430.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:58.516 | ERROR    | wallcat.main:classify:129 - Falha em 57832_Papel-de-Parede-Sim-City-4--57832_1024x768.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:58.603 | ERROR    | wallcat.main:classify:129 - Falha em 652686_20120302_screen002.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:58.722 | ERROR    | wallcat.main:classify:129 - Falha em 652686_20120302_screen003.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:58.829 | ERROR    | wallcat.main:classify:129 - Falha em 652686_20120302_screen004.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:59.038 | ERROR    | wallcat.main:classify:129 - Falha em 652686_20120302_screen008.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:59.152 | ERROR    | wallcat.main:classify:129 - Falha em 652686_20120302_screen010.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:59.245 | ERROR    | wallcat.main:classify:129 - Falha em 652686_20120302_screen013.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:59.337 | ERROR    | wallcat.main:classify:129 - Falha em 652686_20120302_screen018.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:59.429 | ERROR    | wallcat.main:classify:129 - Falha em 652686_20120302_screen020.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:59.528 | ERROR    | wallcat.main:classify:129 - Falha em 652686_20120302_screen028.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:59.703 | ERROR    | wallcat.main:classify:129 - Falha em 70973_Papel-de-Parede-Transformers-Autobots-Ironhide-e-Jazz_1920x1200.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:59.805 | ERROR    | wallcat.main:classify:129 - Falha em 72190_Papel-de-Parede-Homem-Aranha-3-Spiderman-3--72190_1280x1024.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:08:59.899 | ERROR    | wallcat.main:classify:129 - Falha em 73388_Papel-de-Parede-Transformers-Optimus-Prime--73388_1024x768.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:00.018 | ERROR    | wallcat.main:classify:129 - Falha em 8vcasy.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:00.305 | ERROR    | wallcat.main:classify:129 - Falha em BG_superbanner_homeGames_Gears3.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:00.412 | ERROR    | wallcat.main:classify:129 - Falha em brasil_quebrado.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:00.546 | ERROR    | wallcat.main:classify:129 - Falha em Brazil-Flag-Wallpapers-411.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:00.647 | ERROR    | wallcat.main:classify:129 - Falha em BXK139117_brasil-hexa800.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:00.774 | ERROR    | wallcat.main:classify:129 - Falha em coffee_cup_wooden_surface_106291_1920x1080.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:00.892 | ERROR    | wallcat.main:classify:129 - Falha em CT.png: attempt to get argmax of an empty sequence
+2026-01-25 02:09:01.012 | ERROR    | wallcat.main:classify:129 - Falha em Desert-Wallpaper-Image-Picture.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:01.147 | ERROR    | wallcat.main:classify:129 - Falha em dTzega.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:01.325 | ERROR    | wallcat.main:classify:129 - Falha em escalpo2-1920x1080.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:02.631 | ERROR    | wallcat.main:classify:129 - Falha em fallout4.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:02.842 | ERROR    | wallcat.main:classify:129 - Falha em fallout_scene.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:02.962 | ERROR    | wallcat.main:classify:129 - Falha em fallout_survivor.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:03.059 | ERROR    | wallcat.main:classify:129 - Falha em GB-wp1.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:03.281 | ERROR    | wallcat.main:classify:129 - Falha em GB-wp5.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:03.399 | ERROR    | wallcat.main:classify:129 - Falha em gcWu6A.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:03.564 | ERROR    | wallcat.main:classify:129 - Falha em Green-Wallpaper-Background-Android.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:03.676 | ERROR    | wallcat.main:classify:129 - Falha em GTJMaD.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:03.839 | ERROR    | wallcat.main:classify:129 - Falha em IgniteLab#04-1920x1080.png: attempt to get argmax of an empty sequence
+2026-01-25 02:09:04.033 | ERROR    | wallcat.main:classify:129 - Falha em img1.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:04.158 | ERROR    | wallcat.main:classify:129 - Falha em img2.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:04.271 | ERROR    | wallcat.main:classify:129 - Falha em img3.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:04.365 | ERROR    | wallcat.main:classify:129 - Falha em IMG_20151229_224622.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:04.456 | ERROR    | wallcat.main:classify:129 - Falha em img_normal.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:04.565 | ERROR    | wallcat.main:classify:129 - Falha em kCGlrT.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:04.647 | ERROR    | wallcat.main:classify:129 - Falha em last-17mai2012-2.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:04.754 | ERROR    | wallcat.main:classify:129 - Falha em Map-Wallpaper-Black-Art.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:04.834 | ERROR    | wallcat.main:classify:129 - Falha em med_gallery_118_24967.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:04.971 | ERROR    | wallcat.main:classify:129 - Falha em NLW IA- 1920x1080.png: attempt to get argmax of an empty sequence
+2026-01-25 02:09:05.087 | ERROR    | wallcat.main:classify:129 - Falha em oeGmdD.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:05.260 | ERROR    | wallcat.main:classify:129 - Falha em oIpwxeeSPy1cnwYpqJ1w_Dufer Collateral test.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:05.608 | ERROR    | wallcat.main:classify:129 - Falha em pexels-sohail-na-807598 (1).jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:05.716 | ERROR    | wallcat.main:classify:129 - Falha em photo-1452421822248-d4c2b47f0c81.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:05.860 | ERROR    | wallcat.main:classify:129 - Falha em Poster-Craques-SELECAO-BRASILEIRA-todos-os-tempos.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:05.969 | ERROR    | wallcat.main:classify:129 - Falha em Power-Logo-HD-Wallpaper-Blue-Desktop-For-Windows.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:06.097 | ERROR    | wallcat.main:classify:129 - Falha em q1EWxp.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:06.207 | ERROR    | wallcat.main:classify:129 - Falha em road_marking_cloudy_124093_1920x1080.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:06.312 | ERROR    | wallcat.main:classify:129 - Falha em sea_horizon_dark_128627_1920x1080.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:06.413 | ERROR    | wallcat.main:classify:129 - Falha em Shoes-Black-Wallpaper-Image-Picture.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:06.582 | ERROR    | wallcat.main:classify:129 - Falha em soccer-field-Wallpaper-HD-number-n2G.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:06.699 | ERROR    | wallcat.main:classify:129 - Falha em Space.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:06.811 | ERROR    | wallcat.main:classify:129 - Falha em SPBMX.png: attempt to get argmax of an empty sequence
+2026-01-25 02:09:06.954 | ERROR    | wallcat.main:classify:129 - Falha em SQn6zv.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:07.053 | ERROR    | wallcat.main:classify:129 - Falha em the-last-of-us-part-ii-reveal-screen-02-ps4-us-10jul18.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:07.164 | ERROR    | wallcat.main:classify:129 - Falha em the-last-of-us-part-ii-reveal-screen-03-ps4-us-10jul18.jfif: attempt to get argmax of an empty sequence
+2026-01-25 02:09:07.266 | ERROR    | wallcat.main:classify:129 - Falha em the-last-of-us-part-ii-reveal-screen-03-ps4-us-10jul18.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:07.375 | ERROR    | wallcat.main:classify:129 - Falha em tumblr_l21a9h5Bhh1qbkusho1_1280.png: attempt to get argmax of an empty sequence
+2026-01-25 02:09:07.475 | ERROR    | wallcat.main:classify:129 - Falha em tumblr_l22khnPK7v1qbkusho1_1280.png: attempt to get argmax of an empty sequence
+2026-01-25 02:09:07.587 | ERROR    | wallcat.main:classify:129 - Falha em US-wp4.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:07.722 | ERROR    | wallcat.main:classify:129 - Falha em US-wp5.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:07.851 | ERROR    | wallcat.main:classify:129 - Falha em v0Uk6O.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:07.939 | ERROR    | wallcat.main:classify:129 - Falha em violao.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:08.037 | ERROR    | wallcat.main:classify:129 - Falha em vladstudio_worldinversed_1280x1024.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:08.161 | ERROR    | wallcat.main:classify:129 - Falha em Wallpaper - 1920x1080.png: attempt to get argmax of an empty sequence
+2026-01-25 02:09:08.256 | ERROR    | wallcat.main:classify:129 - Falha em wallpaper-1059033.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:08.353 | ERROR    | wallcat.main:classify:129 - Falha em wallpaper-1192224.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:08.459 | ERROR    | wallcat.main:classify:129 - Falha em wallpaper-1347002.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:08.568 | ERROR    | wallcat.main:classify:129 - Falha em wallpaper-1953033.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:08.672 | ERROR    | wallcat.main:classify:129 - Falha em wallpaper-1994414.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:08.775 | ERROR    | wallcat.main:classify:129 - Falha em wallpaper-2038544.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:08.944 | ERROR    | wallcat.main:classify:129 - Falha em wallpaper-2082641.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:09.108 | ERROR    | wallcat.main:classify:129 - Falha em wallpaper-2467670.png: attempt to get argmax of an empty sequence
+2026-01-25 02:09:09.212 | ERROR    | wallcat.main:classify:129 - Falha em wallpaper-2655904.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:09.322 | ERROR    | wallcat.main:classify:129 - Falha em wallpaper-631093.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:09.331 | ERROR    | wallcat.main:classify:129 - Falha em wallpaper-insignia-1366x768.jpg: image file is truncated (1 bytes not processed)
+2026-01-25 02:09:09.447 | ERROR    | wallcat.main:classify:129 - Falha em wallpaper-insignia.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:09.570 | ERROR    | wallcat.main:classify:129 - Falha em wallpaper-insignia2.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:09.685 | ERROR    | wallcat.main:classify:129 - Falha em Wallpaper.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:09.795 | ERROR    | wallcat.main:classify:129 - Falha em Wallpapers-room_com___Brazil_Leather_Wallpaper_by_igorrcarvalho_1440x900.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:09.905 | ERROR    | wallcat.main:classify:129 - Falha em wallpaper_1175390050.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:10.026 | ERROR    | wallcat.main:classify:129 - Falha em wallpaper_1584665693.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:10.158 | ERROR    | wallcat.main:classify:129 - Falha em wallpaper_1877304686.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:10.337 | ERROR    | wallcat.main:classify:129 - Falha em wallpaper_2058906785.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:10.478 | ERROR    | wallcat.main:classify:129 - Falha em wallpaper_28708454.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:10.588 | ERROR    | wallcat.main:classify:129 - Falha em wallpaper_632497876.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:10.878 | ERROR    | wallcat.main:classify:129 - Falha em wallpaper_yourFuture.png: attempt to get argmax of an empty sequence
+2026-01-25 02:09:11.006 | ERROR    | wallcat.main:classify:129 - Falha em windows-8-m3-1306499269.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:11.184 | ERROR    | wallcat.main:classify:129 - Falha em Windows_8_Bliss_by_rehsup_.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:11.589 | ERROR    | wallcat.main:classify:129 - Falha em world-of-tanks-3840x2160-22118.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:11.773 | ERROR    | wallcat.main:classify:129 - Falha em wp-react_1920x1080.png: attempt to get argmax of an empty sequence
+2026-01-25 02:09:12.068 | ERROR    | wallcat.main:classify:129 - Falha em wp2015877-dystopia-wallpapers.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:12.247 | ERROR    | wallcat.main:classify:129 - Falha em wp2015884-dystopia-wallpapers.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:12.371 | ERROR    | wallcat.main:classify:129 - Falha em wp2015886-dystopia-wallpapers.png: attempt to get argmax of an empty sequence
+2026-01-25 02:09:12.521 | ERROR    | wallcat.main:classify:129 - Falha em wp2015892-dystopia-wallpapers.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:12.684 | ERROR    | wallcat.main:classify:129 - Falha em wp2015903-dystopia-wallpapers.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:13.021 | ERROR    | wallcat.main:classify:129 - Falha em wp2015908-dystopia-wallpapers.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:13.240 | ERROR    | wallcat.main:classify:129 - Falha em wp2015921-dystopia-wallpapers.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:13.503 | ERROR    | wallcat.main:classify:129 - Falha em wp2015927-dystopia-wallpapers.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:13.716 | ERROR    | wallcat.main:classify:129 - Falha em wp2015930-dystopia-wallpapers.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:14.005 | ERROR    | wallcat.main:classify:129 - Falha em wp2015936-dystopia-wallpapers.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:14.348 | ERROR    | wallcat.main:classify:129 - Falha em wp2015954-dystopia-wallpapers.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:14.496 | ERROR    | wallcat.main:classify:129 - Falha em wp2015992.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:14.643 | ERROR    | wallcat.main:classify:129 - Falha em Yellow-Art-Wallpaper-Background-PC.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:14.796 | ERROR    | wallcat.main:classify:129 - Falha em Yellow-Wallpaper-Image-Picture.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:14.938 | ERROR    | wallcat.main:classify:129 - Falha em _imagens_wallpapers_replicas_3_6_3296.1280x1024.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:15.085 | ERROR    | wallcat.main:classify:129 - Falha em _imagens_wallpapers_replicas_4_4_4124.2048x768.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:15.240 | ERROR    | wallcat.main:classify:129 - Falha em _imagens_wallpapers_replicas_5_1_5611.1680x1050.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:15.440 | ERROR    | wallcat.main:classify:129 - Falha em _imagens_wallpapers_replicas_5_1_5891.1280x800.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:15.606 | ERROR    | wallcat.main:classify:129 - Falha em _imagens_wallpapers_replicas_5_2_5872.1440x900.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:15.745 | ERROR    | wallcat.main:classify:129 - Falha em _imagens_wallpapers_replicas_7_6_7066.1152x864.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:09:15.746 | INFO     | wallcat.main:classify:131 - ✨ Processo concluído.
+2026-01-25 02:13:52.402 | ERROR    | wallcat.main:load_config:39 - Arquivo de configuração não encontrado em: D:\WORKS\DEV\python\wallcat\config.yaml
+2026-01-25 02:13:52.402 | WARNING  | wallcat.main:default_categories:28 - Usando categorias padrão (Natureza, Espaço, Tecnologia) pois o YAML não foi encontrado.
+2026-01-25 02:13:52.402 | INFO     | wallcat.main:get_clip:21 - Carregando modelo CLIP no dispositivo: CPU
+2026-01-25 02:13:55.099 | INFO     | wallcat.main:classify:96 - Fonte: C:\Users\helio\OneDrive\Imagens\Wallpapers | Destino: C:\Users\helio\OneDrive\Imagens\Wallpapers
+2026-01-25 02:13:55.100 | INFO     | wallcat.main:classify:98 - <yellow>MODO DRY-RUN ATIVADO</yellow>
+2026-01-25 02:13:55.219 | ERROR    | wallcat.main:classify:130 - Falha em 02547_BG.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:55.346 | ERROR    | wallcat.main:classify:130 - Falha em 1 - NLW #05 - 1920x1080.png: attempt to get argmax of an empty sequence
+2026-01-25 02:13:55.429 | ERROR    | wallcat.main:classify:130 - Falha em 11151015020182.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:55.506 | ERROR    | wallcat.main:classify:130 - Falha em 11151046829183.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:55.589 | ERROR    | wallcat.main:classify:130 - Falha em 11151201553187.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:55.672 | ERROR    | wallcat.main:classify:130 - Falha em 11151224423188.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:55.756 | ERROR    | wallcat.main:classify:130 - Falha em 11151508614195.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:55.842 | ERROR    | wallcat.main:classify:130 - Falha em 11151918778214.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:55.938 | ERROR    | wallcat.main:classify:130 - Falha em 11151951023219.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:56.061 | ERROR    | wallcat.main:classify:130 - Falha em 11152048416224.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:56.184 | ERROR    | wallcat.main:classify:130 - Falha em 11152108400225.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:56.268 | ERROR    | wallcat.main:classify:130 - Falha em 11152145122231.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:56.350 | ERROR    | wallcat.main:classify:130 - Falha em 11152210816234.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:56.443 | ERROR    | wallcat.main:classify:130 - Falha em 11152242874238.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:56.536 | ERROR    | wallcat.main:classify:130 - Falha em 11152312889241.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:56.618 | ERROR    | wallcat.main:classify:130 - Falha em 11152354057246.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:56.700 | ERROR    | wallcat.main:classify:130 - Falha em 11152419345248.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:56.800 | ERROR    | wallcat.main:classify:130 - Falha em 112504_Papel-de-Parede-Transformers--112504_1920x1200.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:56.892 | ERROR    | wallcat.main:classify:130 - Falha em 113690_Papel-de-Parede-Resident-Evil-3-A-Extincao-Resident-Evil-Extinction--113690_1280x1024.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:56.991 | ERROR    | wallcat.main:classify:130 - Falha em 120315_Papel-de-Parede-Escudo-pegando-fogo_1920x1200.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:57.093 | ERROR    | wallcat.main:classify:130 - Falha em 12M2610155J50-94422.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:57.184 | ERROR    | wallcat.main:classify:130 - Falha em 143241_Papel-de-Parede-Transformers--143241_1280x800.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:57.313 | ERROR    | wallcat.main:classify:130 - Falha em 144155_Papel-de-Parede-Transformers--144155_1280x800.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:57.429 | ERROR    | wallcat.main:classify:130 - Falha em 144670_Papel-de-Parede-Homem-de-Ferro-Iron-Man--144670_1280x800.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:57.532 | ERROR    | wallcat.main:classify:130 - Falha em 148142_Papel-de-Parede-Homem-de-Ferro-Iron-Man--148142_1280x800.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:57.628 | ERROR    | wallcat.main:classify:130 - Falha em 195523_Papel-de-Parede-Need-For-Speed--195523_1400x1050.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:57.724 | ERROR    | wallcat.main:classify:130 - Falha em 2013-03-29 002.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:57.826 | ERROR    | wallcat.main:classify:130 - Falha em 2013-03-29 003.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:57.915 | ERROR    | wallcat.main:classify:130 - Falha em 2013-04-20 004.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:58.010 | ERROR    | wallcat.main:classify:130 - Falha em 212024_Papel-de-Parede-Led-Zeppelin--212024_1600x1200.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:58.095 | ERROR    | wallcat.main:classify:130 - Falha em 233465_Papel-de-Parede-Transformers--233465_1280x1024.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:58.185 | ERROR    | wallcat.main:classify:130 - Falha em 233850_Papel-de-Parede-Transformers--233850_1280x1024.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:58.275 | ERROR    | wallcat.main:classify:130 - Falha em 278150_Papel-de-Parede-Knights-of-Amalur-Reckoning_1440x900.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:58.359 | ERROR    | wallcat.main:classify:130 - Falha em 3670374-200143-1280.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:58.445 | ERROR    | wallcat.main:classify:130 - Falha em 3670374-200147-1280.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:58.554 | ERROR    | wallcat.main:classify:130 - Falha em 3670374-200148-1280.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:58.700 | ERROR    | wallcat.main:classify:130 - Falha em 3670374-200152-1280.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:58.794 | ERROR    | wallcat.main:classify:130 - Falha em 46821_Papel-de-Parede-Agua-em-Movimento-3D_1440x900.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:58.880 | ERROR    | wallcat.main:classify:130 - Falha em 532661-istock-825167430.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:58.963 | ERROR    | wallcat.main:classify:130 - Falha em 57832_Papel-de-Parede-Sim-City-4--57832_1024x768.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:59.046 | ERROR    | wallcat.main:classify:130 - Falha em 652686_20120302_screen002.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:59.131 | ERROR    | wallcat.main:classify:130 - Falha em 652686_20120302_screen003.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:59.218 | ERROR    | wallcat.main:classify:130 - Falha em 652686_20120302_screen004.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:59.299 | ERROR    | wallcat.main:classify:130 - Falha em 652686_20120302_screen008.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:59.383 | ERROR    | wallcat.main:classify:130 - Falha em 652686_20120302_screen010.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:59.473 | ERROR    | wallcat.main:classify:130 - Falha em 652686_20120302_screen013.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:59.561 | ERROR    | wallcat.main:classify:130 - Falha em 652686_20120302_screen018.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:59.645 | ERROR    | wallcat.main:classify:130 - Falha em 652686_20120302_screen020.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:59.738 | ERROR    | wallcat.main:classify:130 - Falha em 652686_20120302_screen028.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:59.893 | ERROR    | wallcat.main:classify:130 - Falha em 70973_Papel-de-Parede-Transformers-Autobots-Ironhide-e-Jazz_1920x1200.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:13:59.997 | ERROR    | wallcat.main:classify:130 - Falha em 72190_Papel-de-Parede-Homem-Aranha-3-Spiderman-3--72190_1280x1024.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:00.090 | ERROR    | wallcat.main:classify:130 - Falha em 73388_Papel-de-Parede-Transformers-Optimus-Prime--73388_1024x768.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:00.170 | ERROR    | wallcat.main:classify:130 - Falha em 8vcasy.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:00.294 | ERROR    | wallcat.main:classify:130 - Falha em BG_superbanner_homeGames_Gears3.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:00.374 | ERROR    | wallcat.main:classify:130 - Falha em brasil_quebrado.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:00.462 | ERROR    | wallcat.main:classify:130 - Falha em Brazil-Flag-Wallpapers-411.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:00.551 | ERROR    | wallcat.main:classify:130 - Falha em BXK139117_brasil-hexa800.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:00.658 | ERROR    | wallcat.main:classify:130 - Falha em coffee_cup_wooden_surface_106291_1920x1080.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:00.753 | ERROR    | wallcat.main:classify:130 - Falha em CT.png: attempt to get argmax of an empty sequence
+2026-01-25 02:14:00.850 | ERROR    | wallcat.main:classify:130 - Falha em Desert-Wallpaper-Image-Picture.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:00.962 | ERROR    | wallcat.main:classify:130 - Falha em dTzega.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:01.200 | ERROR    | wallcat.main:classify:130 - Falha em escalpo2-1920x1080.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:02.469 | ERROR    | wallcat.main:classify:130 - Falha em fallout4.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:02.601 | ERROR    | wallcat.main:classify:130 - Falha em fallout_scene.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:02.717 | ERROR    | wallcat.main:classify:130 - Falha em fallout_survivor.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:02.836 | ERROR    | wallcat.main:classify:130 - Falha em GB-wp1.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:02.943 | ERROR    | wallcat.main:classify:130 - Falha em GB-wp5.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:03.030 | ERROR    | wallcat.main:classify:130 - Falha em gcWu6A.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:03.177 | ERROR    | wallcat.main:classify:130 - Falha em Green-Wallpaper-Background-Android.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:03.289 | ERROR    | wallcat.main:classify:130 - Falha em GTJMaD.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:03.413 | ERROR    | wallcat.main:classify:130 - Falha em IgniteLab#04-1920x1080.png: attempt to get argmax of an empty sequence
+2026-01-25 02:14:03.534 | ERROR    | wallcat.main:classify:130 - Falha em img1.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:03.704 | ERROR    | wallcat.main:classify:130 - Falha em img2.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:03.808 | ERROR    | wallcat.main:classify:130 - Falha em img3.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:03.894 | ERROR    | wallcat.main:classify:130 - Falha em IMG_20151229_224622.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:03.975 | ERROR    | wallcat.main:classify:130 - Falha em img_normal.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:04.073 | ERROR    | wallcat.main:classify:130 - Falha em kCGlrT.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:04.164 | ERROR    | wallcat.main:classify:130 - Falha em last-17mai2012-2.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:04.266 | ERROR    | wallcat.main:classify:130 - Falha em Map-Wallpaper-Black-Art.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:04.344 | ERROR    | wallcat.main:classify:130 - Falha em med_gallery_118_24967.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:04.479 | ERROR    | wallcat.main:classify:130 - Falha em NLW IA- 1920x1080.png: attempt to get argmax of an empty sequence
+2026-01-25 02:14:04.591 | ERROR    | wallcat.main:classify:130 - Falha em oeGmdD.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:04.708 | ERROR    | wallcat.main:classify:130 - Falha em oIpwxeeSPy1cnwYpqJ1w_Dufer Collateral test.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:05.052 | ERROR    | wallcat.main:classify:130 - Falha em pexels-sohail-na-807598 (1).jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:05.149 | ERROR    | wallcat.main:classify:130 - Falha em photo-1452421822248-d4c2b47f0c81.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:05.291 | ERROR    | wallcat.main:classify:130 - Falha em Poster-Craques-SELECAO-BRASILEIRA-todos-os-tempos.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:05.392 | ERROR    | wallcat.main:classify:130 - Falha em Power-Logo-HD-Wallpaper-Blue-Desktop-For-Windows.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:05.492 | ERROR    | wallcat.main:classify:130 - Falha em q1EWxp.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:05.588 | ERROR    | wallcat.main:classify:130 - Falha em road_marking_cloudy_124093_1920x1080.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:05.688 | ERROR    | wallcat.main:classify:130 - Falha em sea_horizon_dark_128627_1920x1080.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:05.771 | ERROR    | wallcat.main:classify:130 - Falha em Shoes-Black-Wallpaper-Image-Picture.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:05.880 | ERROR    | wallcat.main:classify:130 - Falha em soccer-field-Wallpaper-HD-number-n2G.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:05.982 | ERROR    | wallcat.main:classify:130 - Falha em Space.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:06.195 | ERROR    | wallcat.main:classify:130 - Falha em SPBMX.png: attempt to get argmax of an empty sequence
+2026-01-25 02:14:06.358 | ERROR    | wallcat.main:classify:130 - Falha em SQn6zv.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:06.489 | ERROR    | wallcat.main:classify:130 - Falha em the-last-of-us-part-ii-reveal-screen-02-ps4-us-10jul18.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:06.599 | ERROR    | wallcat.main:classify:130 - Falha em the-last-of-us-part-ii-reveal-screen-03-ps4-us-10jul18.jfif: attempt to get argmax of an empty sequence
+2026-01-25 02:14:06.700 | ERROR    | wallcat.main:classify:130 - Falha em the-last-of-us-part-ii-reveal-screen-03-ps4-us-10jul18.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:06.834 | ERROR    | wallcat.main:classify:130 - Falha em tumblr_l21a9h5Bhh1qbkusho1_1280.png: attempt to get argmax of an empty sequence
+2026-01-25 02:14:06.934 | ERROR    | wallcat.main:classify:130 - Falha em tumblr_l22khnPK7v1qbkusho1_1280.png: attempt to get argmax of an empty sequence
+2026-01-25 02:14:07.043 | ERROR    | wallcat.main:classify:130 - Falha em US-wp4.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:07.147 | ERROR    | wallcat.main:classify:130 - Falha em US-wp5.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:07.263 | ERROR    | wallcat.main:classify:130 - Falha em v0Uk6O.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:07.477 | ERROR    | wallcat.main:classify:130 - Falha em violao.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:07.589 | ERROR    | wallcat.main:classify:130 - Falha em vladstudio_worldinversed_1280x1024.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:07.738 | ERROR    | wallcat.main:classify:130 - Falha em Wallpaper - 1920x1080.png: attempt to get argmax of an empty sequence
+2026-01-25 02:14:07.853 | ERROR    | wallcat.main:classify:130 - Falha em wallpaper-1059033.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:07.956 | ERROR    | wallcat.main:classify:130 - Falha em wallpaper-1192224.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:08.061 | ERROR    | wallcat.main:classify:130 - Falha em wallpaper-1347002.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:08.182 | ERROR    | wallcat.main:classify:130 - Falha em wallpaper-1953033.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:08.292 | ERROR    | wallcat.main:classify:130 - Falha em wallpaper-1994414.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:08.408 | ERROR    | wallcat.main:classify:130 - Falha em wallpaper-2038544.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:08.536 | ERROR    | wallcat.main:classify:130 - Falha em wallpaper-2082641.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:08.802 | ERROR    | wallcat.main:classify:130 - Falha em wallpaper-2467670.png: attempt to get argmax of an empty sequence
+2026-01-25 02:14:08.969 | ERROR    | wallcat.main:classify:130 - Falha em wallpaper-2655904.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:09.311 | ERROR    | wallcat.main:classify:130 - Falha em wallpaper-631093.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:09.322 | ERROR    | wallcat.main:classify:130 - Falha em wallpaper-insignia-1366x768.jpg: image file is truncated (1 bytes not processed)
+2026-01-25 02:14:09.447 | ERROR    | wallcat.main:classify:130 - Falha em wallpaper-insignia.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:09.546 | ERROR    | wallcat.main:classify:130 - Falha em wallpaper-insignia2.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:09.643 | ERROR    | wallcat.main:classify:130 - Falha em Wallpaper.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:09.754 | ERROR    | wallcat.main:classify:130 - Falha em Wallpapers-room_com___Brazil_Leather_Wallpaper_by_igorrcarvalho_1440x900.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:10.041 | ERROR    | wallcat.main:classify:130 - Falha em wallpaper_1175390050.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:10.167 | ERROR    | wallcat.main:classify:130 - Falha em wallpaper_1584665693.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:10.281 | ERROR    | wallcat.main:classify:130 - Falha em wallpaper_1877304686.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:10.414 | ERROR    | wallcat.main:classify:130 - Falha em wallpaper_2058906785.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:10.527 | ERROR    | wallcat.main:classify:130 - Falha em wallpaper_28708454.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:10.636 | ERROR    | wallcat.main:classify:130 - Falha em wallpaper_632497876.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:10.795 | ERROR    | wallcat.main:classify:130 - Falha em wallpaper_yourFuture.png: attempt to get argmax of an empty sequence
+2026-01-25 02:14:10.906 | ERROR    | wallcat.main:classify:130 - Falha em windows-8-m3-1306499269.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:11.016 | ERROR    | wallcat.main:classify:130 - Falha em Windows_8_Bliss_by_rehsup_.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:11.401 | ERROR    | wallcat.main:classify:130 - Falha em world-of-tanks-3840x2160-22118.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:11.598 | ERROR    | wallcat.main:classify:130 - Falha em wp-react_1920x1080.png: attempt to get argmax of an empty sequence
+2026-01-25 02:14:11.709 | ERROR    | wallcat.main:classify:130 - Falha em wp2015877-dystopia-wallpapers.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:11.817 | ERROR    | wallcat.main:classify:130 - Falha em wp2015884-dystopia-wallpapers.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:11.943 | ERROR    | wallcat.main:classify:130 - Falha em wp2015886-dystopia-wallpapers.png: attempt to get argmax of an empty sequence
+2026-01-25 02:14:12.113 | ERROR    | wallcat.main:classify:130 - Falha em wp2015892-dystopia-wallpapers.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:12.232 | ERROR    | wallcat.main:classify:130 - Falha em wp2015903-dystopia-wallpapers.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:12.329 | ERROR    | wallcat.main:classify:130 - Falha em wp2015908-dystopia-wallpapers.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:12.501 | ERROR    | wallcat.main:classify:130 - Falha em wp2015921-dystopia-wallpapers.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:12.692 | ERROR    | wallcat.main:classify:130 - Falha em wp2015927-dystopia-wallpapers.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:12.851 | ERROR    | wallcat.main:classify:130 - Falha em wp2015930-dystopia-wallpapers.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:13.067 | ERROR    | wallcat.main:classify:130 - Falha em wp2015936-dystopia-wallpapers.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:13.209 | ERROR    | wallcat.main:classify:130 - Falha em wp2015954-dystopia-wallpapers.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:13.326 | ERROR    | wallcat.main:classify:130 - Falha em wp2015992.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:13.455 | ERROR    | wallcat.main:classify:130 - Falha em Yellow-Art-Wallpaper-Background-PC.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:13.557 | ERROR    | wallcat.main:classify:130 - Falha em Yellow-Wallpaper-Image-Picture.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:13.845 | ERROR    | wallcat.main:classify:130 - Falha em _imagens_wallpapers_replicas_3_6_3296.1280x1024.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:13.954 | ERROR    | wallcat.main:classify:130 - Falha em _imagens_wallpapers_replicas_4_4_4124.2048x768.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:14.131 | ERROR    | wallcat.main:classify:130 - Falha em _imagens_wallpapers_replicas_5_1_5611.1680x1050.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:14.361 | ERROR    | wallcat.main:classify:130 - Falha em _imagens_wallpapers_replicas_5_1_5891.1280x800.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:14.589 | ERROR    | wallcat.main:classify:130 - Falha em _imagens_wallpapers_replicas_5_2_5872.1440x900.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:14.814 | ERROR    | wallcat.main:classify:130 - Falha em _imagens_wallpapers_replicas_7_6_7066.1152x864.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:14.815 | INFO     | wallcat.main:classify:132 - ✨ Processo concluído.
+2026-01-25 02:14:44.924 | ERROR    | wallcat.main:load_config:39 - Arquivo de configuração não encontrado em: D:\WORKS\DEV\python\wallcat\config.yaml
+2026-01-25 02:14:44.924 | WARNING  | wallcat.main:default_categories:28 - Usando categorias padrão (Natureza, Espaço, Tecnologia) pois o YAML não foi encontrado.
+2026-01-25 02:14:44.924 | INFO     | wallcat.main:get_clip:21 - Carregando modelo CLIP no dispositivo: CPU
+2026-01-25 02:14:48.066 | INFO     | wallcat.main:classify:96 - Fonte: C:\Users\helio\OneDrive\Imagens\Wallpapers | Destino: C:\Users\helio\OneDrive\Imagens\Wallpapers
+2026-01-25 02:14:48.067 | INFO     | wallcat.main:classify:98 - MODO DRY-RUN ATIVADO
+2026-01-25 02:14:48.241 | ERROR    | wallcat.main:classify:130 - Falha em 02547_BG.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:48.371 | ERROR    | wallcat.main:classify:130 - Falha em 1 - NLW #05 - 1920x1080.png: attempt to get argmax of an empty sequence
+2026-01-25 02:14:48.457 | ERROR    | wallcat.main:classify:130 - Falha em 11151015020182.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:48.543 | ERROR    | wallcat.main:classify:130 - Falha em 11151046829183.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:48.628 | ERROR    | wallcat.main:classify:130 - Falha em 11151201553187.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:48.713 | ERROR    | wallcat.main:classify:130 - Falha em 11151224423188.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:48.796 | ERROR    | wallcat.main:classify:130 - Falha em 11151508614195.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:48.882 | ERROR    | wallcat.main:classify:130 - Falha em 11151918778214.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:48.967 | ERROR    | wallcat.main:classify:130 - Falha em 11151951023219.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:49.053 | ERROR    | wallcat.main:classify:130 - Falha em 11152048416224.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:49.137 | ERROR    | wallcat.main:classify:130 - Falha em 11152108400225.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:49.223 | ERROR    | wallcat.main:classify:130 - Falha em 11152145122231.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:49.327 | ERROR    | wallcat.main:classify:130 - Falha em 11152210816234.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:49.460 | ERROR    | wallcat.main:classify:130 - Falha em 11152242874238.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:49.651 | ERROR    | wallcat.main:classify:130 - Falha em 11152312889241.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:49.758 | ERROR    | wallcat.main:classify:130 - Falha em 11152354057246.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:49.841 | ERROR    | wallcat.main:classify:130 - Falha em 11152419345248.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:49.941 | ERROR    | wallcat.main:classify:130 - Falha em 112504_Papel-de-Parede-Transformers--112504_1920x1200.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:14:50.029 | ERROR    | wallcat.main:classify:130 - Falha em 113690_Papel-de-Parede-Resident-Evil-3-A-Extincao-Resident-Evil-Extinction--113690_1280x1024.jpg: attempt to get argmax of an empty sequence
+2026-01-25 02:30:18.364 | ERROR    | wallcat.main:load_config:90 - Arquivo não encontrado: <red>D:\WORKS\DEV\python\wallcat\config.yaml</red>
+2026-01-25 02:30:18.368 | WARNING  | wallcat.main:default_categories:29 - Usando categorias de fallback.
+2026-01-25 02:30:18.370 | INFO     | wallcat.main:get_clip:21 - Carregando modelo CLIP no dispositivo: CPU
+2026-01-25 02:30:21.081 | INFO     | wallcat.main:classify:150 - Iniciando: C:\Users\helio\OneDrive\Imagens\Wallpapers -> C:\Users\helio\OneDrive\Imagens\Wallpapers
+2026-01-25 02:30:21.083 | INFO     | wallcat.main:classify:152 - MODO SIMULAÇÃO ATIVADO
+2026-01-25 02:30:21.705 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (84.74%)] 02547_BG.jpg -> Cinema
+2026-01-25 02:30:24.405 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (94.37%)] 11151201553187.jpg -> Digital_Art
+2026-01-25 02:30:25.050 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (87.34%)] 11151224423188.jpg -> Digital_Art
+2026-01-25 02:30:26.297 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (96.78%)] 11151918778214.jpg -> Digital_Art
+2026-01-25 02:30:29.991 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (95.93%)] 11152242874238.jpg -> Abstrato
+2026-01-25 02:30:31.789 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (99.59%)] 11152419345248.jpg -> Minimalista
+2026-01-25 02:30:32.486 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (84.56%)] 112504_Papel-de-Parede-Transformers--112504_1920x1200.jpg -> Pos-apocalipse
+2026-01-25 02:30:34.410 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (97.88%)] 12M2610155J50-94422.jpg -> Abstrato
+2026-01-25 02:30:36.986 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (90.63%)] 148142_Papel-de-Parede-Homem-de-Ferro-Iron-Man--148142_1280x800.jpg -> Cinema
+2026-01-25 02:30:44.190 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (89.62%)] 3670374-200147-1280.jpg -> Pos-apocalipse
+2026-01-25 02:30:49.430 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (99.99%)] 652686_20120302_screen003.jpg -> Pos-apocalipse
+2026-01-25 02:30:50.230 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (99.76%)] 652686_20120302_screen004.jpg -> Pos-apocalipse
+2026-01-25 02:30:50.986 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (99.83%)] 652686_20120302_screen008.jpg -> Pos-apocalipse
+2026-01-25 02:30:51.930 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (98.21%)] 652686_20120302_screen010.jpg -> Pos-apocalipse
+2026-01-25 02:30:52.885 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (90.45%)] 652686_20120302_screen013.jpg -> Pos-apocalipse
+2026-01-25 02:30:55.320 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (81.31%)] 652686_20120302_screen020.jpg -> Pos-apocalipse
+2026-01-25 02:30:58.269 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (92.50%)] 72190_Papel-de-Parede-Homem-Aranha-3-Spiderman-3--72190_1280x1024.jpg -> Cinema
+2026-01-25 02:30:59.250 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (94.57%)] 73388_Papel-de-Parede-Transformers-Optimus-Prime--73388_1024x768.jpg -> Cinema
+2026-01-25 02:31:04.536 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (82.87%)] coffee_cup_wooden_surface_106291_1920x1080.jpg -> Minimalista
+2026-01-25 02:31:06.247 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (94.01%)] Desert-Wallpaper-Image-Picture.jpg -> Pos-apocalipse
+2026-01-25 02:31:11.773 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (99.82%)] fallout4.jpg -> Pos-apocalipse
+2026-01-25 02:31:13.116 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (99.68%)] fallout_scene.jpg -> Pos-apocalipse
+2026-01-25 02:31:14.506 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (92.17%)] fallout_survivor.jpg -> Pos-apocalipse
+2026-01-25 02:31:21.601 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (83.70%)] img1.jpg -> Abstrato
+2026-01-25 02:31:25.539 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (92.92%)] IMG_20151229_224622.jpg -> Cinema
+2026-01-25 02:31:26.768 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (99.76%)] img_normal.jpg -> Pos-apocalipse
+2026-01-25 02:31:27.648 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (91.33%)] kCGlrT.jpg -> Cinema
+2026-01-25 02:31:29.245 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (80.32%)] Map-Wallpaper-Black-Art.jpg -> Tecnologia
+2026-01-25 02:31:37.528 | INFO     | wallcat.main:classify:193 - [DRY-RUN][KEYWORD] Poster-Craques-SELECAO-BRASILEIRA-todos-os-tempos.jpg -> Cinema
+2026-01-25 02:31:43.328 | INFO     | wallcat.main:classify:193 - [DRY-RUN][KEYWORD] Space.jpg -> Space
+2026-01-25 02:31:43.330 | INFO     | wallcat.main:classify:193 - [DRY-RUN][KEYWORD] SPBMX.png -> Ciclismo
+2026-01-25 02:31:44.273 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (99.95%)] SQn6zv.jpg -> Pos-apocalipse
+2026-01-25 02:31:45.956 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (94.08%)] the-last-of-us-part-ii-reveal-screen-03-ps4-us-10jul18.jfif -> Pos-apocalipse
+2026-01-25 02:31:46.742 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (96.39%)] the-last-of-us-part-ii-reveal-screen-03-ps4-us-10jul18.jpg -> Pos-apocalipse
+2026-01-25 02:31:48.448 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (88.02%)] tumblr_l22khnPK7v1qbkusho1_1280.png -> Abstrato
+2026-01-25 02:32:04.914 | ERROR    | wallcat.main:classify:182 - Erro IA em wallpaper-insignia-1366x768.jpg: image file is truncated (1 bytes not processed)
+2026-01-25 02:32:11.633 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (82.29%)] wallpaper_1584665693.jpg -> Pos-apocalipse
+2026-01-25 02:32:14.620 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (96.94%)] wallpaper_28708454.jpg -> Pos-apocalipse
+2026-01-25 02:32:15.605 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (81.84%)] wallpaper_632497876.jpg -> Tecnologia
+2026-01-25 02:32:15.607 | INFO     | wallcat.main:classify:193 - [DRY-RUN][KEYWORD] wallpaper_yourFuture.png -> Utopia
+2026-01-25 02:32:21.960 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (88.35%)] wp-react_1920x1080.png -> Minimalista
+2026-01-25 02:32:22.933 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (95.24%)] wp2015877-dystopia-wallpapers.jpg -> Pos-apocalipse
+2026-01-25 02:32:24.456 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (96.49%)] wp2015886-dystopia-wallpapers.png -> Pos-apocalipse
+2026-01-25 02:32:25.211 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (88.76%)] wp2015892-dystopia-wallpapers.jpg -> Pos-apocalipse
+2026-01-25 02:32:26.045 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (99.53%)] wp2015903-dystopia-wallpapers.jpg -> Pos-apocalipse
+2026-01-25 02:32:26.763 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (93.04%)] wp2015908-dystopia-wallpapers.jpg -> Pos-apocalipse
+2026-01-25 02:32:27.662 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (82.21%)] wp2015921-dystopia-wallpapers.jpg -> Pos-apocalipse
+2026-01-25 02:32:28.686 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (93.88%)] wp2015927-dystopia-wallpapers.jpg -> Pos-apocalipse
+2026-01-25 02:32:31.997 | INFO     | wallcat.main:classify:193 - [DRY-RUN][KEYWORD] Yellow-Art-Wallpaper-Background-PC.jpg -> Tecnologia
+2026-01-25 02:32:33.373 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (99.76%)] _imagens_wallpapers_replicas_3_6_3296.1280x1024.jpg -> Pos-apocalipse
+2026-01-25 02:32:34.104 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (90.93%)] _imagens_wallpapers_replicas_4_4_4124.2048x768.jpg -> Pos-apocalipse
+2026-01-25 02:32:34.828 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (82.40%)] _imagens_wallpapers_replicas_5_1_5611.1680x1050.jpg -> Utopia
+2026-01-25 02:32:35.579 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (88.68%)] _imagens_wallpapers_replicas_5_1_5891.1280x800.jpg -> Pos-apocalipse
+2026-01-25 02:32:36.448 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (99.31%)] _imagens_wallpapers_replicas_5_2_5872.1440x900.jpg -> Pos-apocalipse
+2026-01-25 02:32:37.225 | INFO     | wallcat.main:classify:193 - [DRY-RUN][AI (85.52%)] _imagens_wallpapers_replicas_7_6_7066.1152x864.jpg -> Ciclismo
+2026-01-25 02:32:37.227 | INFO     | wallcat.main:classify:197 - ✨ Processo concluído.
+2026-01-25 02:46:04.903 | ERROR    | wallcat.main:load_config:90 - Arquivo não encontrado: <red>D:\WORKS\DEV\python\wallcat\config.yaml</red>
+2026-01-25 02:46:04.906 | WARNING  | wallcat.main:default_categories:29 - Usando categorias de fallback.
+2026-01-25 02:46:04.907 | INFO     | wallcat.main:get_clip:21 - Carregando modelo CLIP no dispositivo: CPU
+2026-01-25 02:46:07.726 | INFO     | wallcat.main:classify:147 - Iniciando: C:\Users\helio\OneDrive\Imagens\Wallpapers -> C:\Users\helio\OneDrive\Imagens\Wallpapers
+2026-01-25 02:46:07.729 | INFO     | wallcat.main:classify:149 - MODO SIMULAÇÃO ATIVADO
+2026-01-25 02:46:08.329 | SUCCESS  | wallcat.main:classify:193 - [DRY-RUN] 02547_BG.jpg -> Cinema (AI (84.74%))
+2026-01-25 02:46:09.040 | INFO     | wallcat.main:classify:196 - Ignorado: 1 - NLW #05 - 1920x1080.png -> None (undefined)
+2026-01-25 02:46:09.609 | INFO     | wallcat.main:classify:196 - Ignorado: 11151015020182.jpg -> None (undefined)
+2026-01-25 02:46:10.275 | INFO     | wallcat.main:classify:196 - Ignorado: 11151046829183.jpg -> None (undefined)
+2026-01-25 02:46:10.866 | SUCCESS  | wallcat.main:classify:193 - [DRY-RUN] 11151201553187.jpg -> Digital_Art (AI (94.37%))
+2026-01-25 02:46:11.539 | SUCCESS  | wallcat.main:classify:193 - [DRY-RUN] 11151224423188.jpg -> Digital_Art (AI (87.34%))
+2026-01-25 02:46:12.109 | INFO     | wallcat.main:classify:196 - Ignorado: 11151508614195.jpg -> None (undefined)
+2026-01-25 02:46:12.799 | SUCCESS  | wallcat.main:classify:193 - [DRY-RUN] 11151918778214.jpg -> Digital_Art (AI (96.78%))
+2026-01-25 02:46:13.358 | INFO     | wallcat.main:classify:196 - Ignorado: 11151951023219.jpg -> None (undefined)
+2026-01-25 02:46:14.063 | INFO     | wallcat.main:classify:196 - Ignorado: 11152048416224.jpg -> None (undefined)
+2026-01-25 02:46:14.685 | INFO     | wallcat.main:classify:196 - Ignorado: 11152108400225.jpg -> None (undefined)
+2026-01-25 02:46:15.433 | INFO     | wallcat.main:classify:196 - Ignorado: 11152145122231.jpg -> None (undefined)
+2026-01-25 02:46:16.038 | INFO     | wallcat.main:classify:196 - Ignorado: 11152210816234.jpg -> None (undefined)
+2026-01-25 02:46:16.701 | SUCCESS  | wallcat.main:classify:193 - [DRY-RUN] 11152242874238.jpg -> Abstrato (AI (95.93%))
+2026-01-25 02:46:17.293 | INFO     | wallcat.main:classify:196 - Ignorado: 11152312889241.jpg -> None (undefined)
+2026-01-25 02:46:17.959 | INFO     | wallcat.main:classify:196 - Ignorado: 11152354057246.jpg -> None (undefined)
+2026-01-25 02:46:18.526 | SUCCESS  | wallcat.main:classify:193 - [DRY-RUN] 11152419345248.jpg -> Minimalista (AI (99.59%))
+2026-01-25 02:46:19.215 | SUCCESS  | wallcat.main:classify:193 - [DRY-RUN] 112504_Papel-de-Parede-Transformers--112504_1920x1200.jpg -> Pos-apocalipse (AI (84.56%))
+2026-01-25 02:46:19.810 | INFO     | wallcat.main:classify:196 - Ignorado: 113690_Papel-de-Parede-Resident-Evil-3-A-Extincao-Resident-Evil-Extinction--113690_1280x1024.jpg -> None (undefined)
+2026-01-25 02:46:20.491 | INFO     | wallcat.main:classify:196 - Ignorado: 120315_Papel-de-Parede-Escudo-pegando-fogo_1920x1200.jpg -> None (undefined)
+2026-01-25 02:46:21.130 | SUCCESS  | wallcat.main:classify:193 - [DRY-RUN] 12M2610155J50-94422.jpg -> Abstrato (AI (97.88%))
+2026-01-25 02:46:21.840 | INFO     | wallcat.main:classify:196 - Ignorado: 143241_Papel-de-Parede-Transformers--143241_1280x800.jpg -> None (undefined)
+2026-01-25 02:46:22.421 | INFO     | wallcat.main:classify:196 - Ignorado: 144155_Papel-de-Parede-Transformers--144155_1280x800.jpg -> None (undefined)
+2026-01-25 02:46:23.064 | INFO     | wallcat.main:classify:196 - Ignorado: 144670_Papel-de-Parede-Homem-de-Ferro-Iron-Man--144670_1280x800.jpg -> None (undefined)
+2026-01-25 02:46:23.628 | SUCCESS  | wallcat.main:classify:193 - [DRY-RUN] 148142_Papel-de-Parede-Homem-de-Ferro-Iron-Man--148142_1280x800.jpg -> Cinema (AI (90.63%))
+2026-01-25 02:46:24.391 | INFO     | wallcat.main:classify:196 - Ignorado: 195523_Papel-de-Parede-Need-For-Speed--195523_1400x1050.jpg -> None (undefined)
+2026-01-25 02:46:25.076 | INFO     | wallcat.main:classify:196 - Ignorado: 2013-03-29 002.jpg -> None (undefined)
+2026-01-25 02:46:25.832 | INFO     | wallcat.main:classify:196 - Ignorado: 2013-03-29 003.jpg -> None (undefined)
+2026-01-25 02:46:26.587 | INFO     | wallcat.main:classify:196 - Ignorado: 2013-04-20 004.jpg -> None (undefined)
+2026-01-25 02:46:27.243 | INFO     | wallcat.main:classify:196 - Ignorado: 212024_Papel-de-Parede-Led-Zeppelin--212024_1600x1200.jpg -> None (undefined)
+2026-01-25 02:46:27.997 | INFO     | wallcat.main:classify:196 - Ignorado: 233465_Papel-de-Parede-Transformers--233465_1280x1024.jpg -> None (undefined)
+2026-01-25 02:46:28.686 | INFO     | wallcat.main:classify:196 - Ignorado: 233850_Papel-de-Parede-Transformers--233850_1280x1024.jpg -> None (undefined)
+2026-01-25 02:46:29.419 | INFO     | wallcat.main:classify:196 - Ignorado: 278150_Papel-de-Parede-Knights-of-Amalur-Reckoning_1440x900.jpg -> None (undefined)
+2026-01-25 02:46:30.064 | INFO     | wallcat.main:classify:196 - Ignorado: 3670374-200143-1280.jpg -> None (undefined)
+2026-01-25 02:46:30.823 | SUCCESS  | wallcat.main:classify:193 - [DRY-RUN] 3670374-200147-1280.jpg -> Pos-apocalipse (AI (89.62%))
+2026-01-25 02:46:31.431 | INFO     | wallcat.main:classify:196 - Ignorado: 3670374-200148-1280.jpg -> None (undefined)
+2026-01-25 02:46:32.164 | INFO     | wallcat.main:classify:196 - Ignorado: 3670374-200152-1280.jpg -> None (undefined)
+2026-01-25 02:46:32.942 | INFO     | wallcat.main:classify:196 - Ignorado: 46821_Papel-de-Parede-Agua-em-Movimento-3D_1440x900.jpg -> None (undefined)
+2026-01-25 02:46:33.590 | INFO     | wallcat.main:classify:196 - Ignorado: 532661-istock-825167430.jpg -> None (undefined)
+2026-01-25 02:46:34.363 | INFO     | wallcat.main:classify:196 - Ignorado: 57832_Papel-de-Parede-Sim-City-4--57832_1024x768.jpg -> None (undefined)
+2026-01-25 02:46:35.025 | INFO     | wallcat.main:classify:196 - Ignorado: 652686_20120302_screen002.jpg -> None (undefined)
+2026-01-25 02:46:35.823 | SUCCESS  | wallcat.main:classify:193 - [DRY-RUN] 652686_20120302_screen003.jpg -> Pos-apocalipse (AI (99.99%))
+2026-01-25 02:46:36.752 | SUCCESS  | wallcat.main:classify:193 - [DRY-RUN] 652686_20120302_screen004.jpg -> Pos-apocalipse (AI (99.76%))
+2026-01-25 02:46:37.392 | SUCCESS  | wallcat.main:classify:193 - [DRY-RUN] 652686_20120302_screen008.jpg -> Pos-apocalipse (AI (99.83%))
+2026-01-25 02:46:38.114 | SUCCESS  | wallcat.main:classify:193 - [DRY-RUN] 652686_20120302_screen010.jpg -> Pos-apocalipse (AI (98.21%))
+2026-01-25 02:46:38.782 | SUCCESS  | wallcat.main:classify:193 - [DRY-RUN] 652686_20120302_screen013.jpg -> Pos-apocalipse (AI (90.45%))
+2026-01-25 02:46:39.571 | INFO     | wallcat.main:classify:196 - Ignorado: 652686_20120302_screen018.jpg -> None (undefined)
+2026-01-25 02:46:40.200 | SUCCESS  | wallcat.main:classify:193 - [DRY-RUN] 652686_20120302_screen020.jpg -> Pos-apocalipse (AI (81.31%))
+2026-01-25 02:46:41.013 | INFO     | wallcat.main:classify:196 - Ignorado: 652686_20120302_screen028.jpg -> None (undefined)
+2026-01-25 02:46:41.794 | INFO     | wallcat.main:classify:196 - Ignorado: 70973_Papel-de-Parede-Transformers-Autobots-Ironhide-e-Jazz_1920x1200.jpg -> None (undefined)
+2026-01-25 02:46:42.423 | SUCCESS  | wallcat.main:classify:193 - [DRY-RUN] 72190_Papel-de-Parede-Homem-Aranha-3-Spiderman-3--72190_1280x1024.jpg -> Cinema (AI (92.50%))
+2026-01-25 02:47:04.009 | ERROR    | wallcat.main:load_config:90 - Arquivo não encontrado: <red>D:\WORKS\DEV\python\wallcat\config.yaml</red>
+2026-01-25 02:47:04.011 | WARNING  | wallcat.main:default_categories:29 - Usando categorias de fallback.
+2026-01-25 02:47:04.012 | INFO     | wallcat.main:get_clip:21 - Carregando modelo CLIP no dispositivo: CPU
+2026-01-25 02:47:06.673 | INFO     | wallcat.main:classify:147 - Iniciando: C:\Users\helio\OneDrive\Imagens\Wallpapers -> C:\Users\helio\OneDrive\Imagens\Wallpapers
+2026-01-25 02:47:06.675 | INFO     | wallcat.main:classify:149 - MODO SIMULAÇÃO ATIVADO
+2026-01-25 02:47:07.271 | INFO     | wallcat.main:classify:196 - Ignorado: 02547_BG.jpg -> None (undefined)
+2026-01-25 02:47:07.959 | INFO     | wallcat.main:classify:196 - Ignorado: 1 - NLW #05 - 1920x1080.png -> None (undefined)
+2026-01-25 02:47:08.575 | INFO     | wallcat.main:classify:196 - Ignorado: 11151015020182.jpg -> None (undefined)
+2026-01-25 02:47:09.222 | INFO     | wallcat.main:classify:196 - Ignorado: 11151046829183.jpg -> None (undefined)
+2026-01-25 02:47:09.907 | INFO     | wallcat.main:classify:196 - Ignorado: 11151201553187.jpg -> None (undefined)
+2026-01-25 02:47:10.482 | INFO     | wallcat.main:classify:196 - Ignorado: 11151224423188.jpg -> None (undefined)
+2026-01-25 02:47:11.122 | INFO     | wallcat.main:classify:196 - Ignorado: 11151508614195.jpg -> None (undefined)
+2026-01-25 02:47:11.736 | INFO     | wallcat.main:classify:196 - Ignorado: 11151918778214.jpg -> None (undefined)
+2026-01-25 02:47:12.436 | INFO     | wallcat.main:classify:196 - Ignorado: 11151951023219.jpg -> None (undefined)
+2026-01-25 02:47:13.034 | INFO     | wallcat.main:classify:196 - Ignorado: 11152048416224.jpg -> None (undefined)
+2026-01-25 02:47:13.788 | INFO     | wallcat.main:classify:196 - Ignorado: 11152108400225.jpg -> None (undefined)
+2026-01-25 02:47:14.359 | INFO     | wallcat.main:classify:196 - Ignorado: 11152145122231.jpg -> None (undefined)
+2026-01-25 02:47:15.041 | INFO     | wallcat.main:classify:196 - Ignorado: 11152210816234.jpg -> None (undefined)
+2026-01-25 02:47:15.619 | INFO     | wallcat.main:classify:196 - Ignorado: 11152242874238.jpg -> None (undefined)
+2026-01-25 02:47:16.302 | INFO     | wallcat.main:classify:196 - Ignorado: 11152312889241.jpg -> None (undefined)
+2026-01-25 02:47:16.890 | INFO     | wallcat.main:classify:196 - Ignorado: 11152354057246.jpg -> None (undefined)
+2026-01-25 02:47:17.581 | INFO     | wallcat.main:classify:196 - Ignorado: 11152419345248.jpg -> None (undefined)
+2026-01-25 02:47:18.182 | INFO     | wallcat.main:classify:196 - Ignorado: 112504_Papel-de-Parede-Transformers--112504_1920x1200.jpg -> None (undefined)
+2026-01-25 02:47:18.865 | INFO     | wallcat.main:classify:196 - Ignorado: 113690_Papel-de-Parede-Resident-Evil-3-A-Extincao-Resident-Evil-Extinction--113690_1280x1024.jpg -> None (undefined)
+2026-01-25 02:47:19.452 | INFO     | wallcat.main:classify:196 - Ignorado: 120315_Papel-de-Parede-Escudo-pegando-fogo_1920x1200.jpg -> None (undefined)
+2026-01-25 02:47:20.233 | INFO     | wallcat.main:classify:196 - Ignorado: 12M2610155J50-94422.jpg -> None (undefined)
+2026-01-25 02:47:20.851 | INFO     | wallcat.main:classify:196 - Ignorado: 143241_Papel-de-Parede-Transformers--143241_1280x800.jpg -> None (undefined)
+2026-01-25 02:47:21.671 | INFO     | wallcat.main:classify:196 - Ignorado: 144155_Papel-de-Parede-Transformers--144155_1280x800.jpg -> None (undefined)
+2026-01-25 02:50:16.145 | ERROR    | wallcat.main:load_config:90 - Arquivo não encontrado: <red>D:\WORKS\DEV\python\wallcat\config.yaml</red>
+2026-01-25 02:50:16.150 | WARNING  | wallcat.main:default_categories:29 - Usando categorias de fallback.
+2026-01-25 02:50:16.152 | INFO     | wallcat.main:get_clip:21 - Carregando modelo CLIP no dispositivo: CPU
+2026-01-25 02:50:18.825 | INFO     | wallcat.main:classify:147 - Iniciando: C:\Users\helio\OneDrive\Imagens\Wallpapers -> C:\Users\helio\OneDrive\Imagens\Wallpapers
+2026-01-25 02:50:18.827 | INFO     | wallcat.main:classify:149 - MODO SIMULAÇÃO ATIVADO
+2026-01-25 02:50:19.456 | INFO     | wallcat.main:classify:186 - Ignorado: 02547_BG.jpg -> Cinema (AI (84.74%))
+2026-01-25 02:50:20.196 | INFO     | wallcat.main:classify:186 - Ignorado: 1 - NLW #05 - 1920x1080.png -> Abstrato (AI (71.19%))
+2026-01-25 02:50:20.798 | INFO     | wallcat.main:classify:186 - Ignorado: 11151015020182.jpg -> Digital_Art (AI (42.23%))
+2026-01-25 02:50:21.479 | INFO     | wallcat.main:classify:186 - Ignorado: 11151046829183.jpg -> Pos-apocalipse (AI (71.70%))
+2026-01-25 02:50:22.054 | INFO     | wallcat.main:classify:186 - Ignorado: 11151201553187.jpg -> Digital_Art (AI (94.37%))
+2026-01-25 02:50:22.776 | INFO     | wallcat.main:classify:186 - Ignorado: 11151224423188.jpg -> Digital_Art (AI (87.34%))
+2026-01-25 02:50:23.352 | INFO     | wallcat.main:classify:186 - Ignorado: 11151508614195.jpg -> Utopia (AI (70.33%))
+2026-01-25 02:50:24.018 | INFO     | wallcat.main:classify:186 - Ignorado: 11151918778214.jpg -> Digital_Art (AI (96.78%))
+2026-01-25 02:50:24.609 | INFO     | wallcat.main:classify:186 - Ignorado: 11151951023219.jpg -> Pos-apocalipse (AI (56.65%))
+2026-01-25 02:50:25.305 | INFO     | wallcat.main:classify:186 - Ignorado: 11152048416224.jpg -> Digital_Art (AI (52.08%))
+2026-01-25 02:50:25.911 | INFO     | wallcat.main:classify:186 - Ignorado: 11152108400225.jpg -> Digital_Art (AI (76.22%))
+2026-01-25 02:50:26.615 | INFO     | wallcat.main:classify:186 - Ignorado: 11152145122231.jpg -> Space (AI (23.24%))
+2026-01-25 02:50:27.203 | INFO     | wallcat.main:classify:186 - Ignorado: 11152210816234.jpg -> Utopia (AI (70.60%))
+2026-01-25 02:50:27.880 | INFO     | wallcat.main:classify:186 - Ignorado: 11152242874238.jpg -> Abstrato (AI (95.93%))
+2026-01-25 02:50:28.444 | INFO     | wallcat.main:classify:186 - Ignorado: 11152312889241.jpg -> Space (AI (65.34%))
+2026-01-25 02:50:29.131 | INFO     | wallcat.main:classify:186 - Ignorado: 11152354057246.jpg -> Space (AI (51.08%))
+2026-01-25 02:50:29.722 | INFO     | wallcat.main:classify:186 - Ignorado: 11152419345248.jpg -> Minimalista (AI (99.59%))
+2026-01-25 02:50:30.384 | INFO     | wallcat.main:classify:186 - Ignorado: 112504_Papel-de-Parede-Transformers--112504_1920x1200.jpg -> Pos-apocalipse (AI (84.56%))
+2026-01-25 02:50:30.956 | INFO     | wallcat.main:classify:186 - Ignorado: 113690_Papel-de-Parede-Resident-Evil-3-A-Extincao-Resident-Evil-Extinction--113690_1280x1024.jpg -> Pos-apocalipse (AI (65.96%))
+2026-01-25 02:50:31.775 | INFO     | wallcat.main:classify:186 - Ignorado: 120315_Papel-de-Parede-Escudo-pegando-fogo_1920x1200.jpg -> Digital_Art (AI (49.37%))
+2026-01-25 02:50:32.438 | INFO     | wallcat.main:classify:186 - Ignorado: 12M2610155J50-94422.jpg -> Abstrato (AI (97.88%))
+2026-01-25 02:50:33.152 | INFO     | wallcat.main:classify:186 - Ignorado: 143241_Papel-de-Parede-Transformers--143241_1280x800.jpg -> Cinema (AI (65.03%))
+2026-01-25 02:50:33.938 | INFO     | wallcat.main:classify:186 - Ignorado: 144155_Papel-de-Parede-Transformers--144155_1280x800.jpg -> Cinema (AI (71.36%))
+2026-01-25 02:50:34.599 | INFO     | wallcat.main:classify:186 - Ignorado: 144670_Papel-de-Parede-Homem-de-Ferro-Iron-Man--144670_1280x800.jpg -> Cinema (AI (62.51%))
+2026-01-25 02:50:35.375 | INFO     | wallcat.main:classify:186 - Ignorado: 148142_Papel-de-Parede-Homem-de-Ferro-Iron-Man--148142_1280x800.jpg -> Cinema (AI (90.63%))
+2026-01-25 02:50:36.059 | INFO     | wallcat.main:classify:186 - Ignorado: 195523_Papel-de-Parede-Need-For-Speed--195523_1400x1050.jpg -> Pos-apocalipse (AI (72.29%))
+2026-01-25 02:50:36.879 | INFO     | wallcat.main:classify:186 - Ignorado: 2013-03-29 002.jpg -> Pos-apocalipse (AI (76.25%))
+2026-01-25 02:50:37.618 | INFO     | wallcat.main:classify:186 - Ignorado: 2013-03-29 003.jpg -> Ciclismo (AI (34.31%))
+2026-01-25 02:50:38.364 | INFO     | wallcat.main:classify:186 - Ignorado: 2013-04-20 004.jpg -> Cinema (AI (68.72%))
+2026-01-25 02:50:39.161 | INFO     | wallcat.main:classify:186 - Ignorado: 212024_Papel-de-Parede-Led-Zeppelin--212024_1600x1200.jpg -> Ciclismo (AI (30.99%))
+2026-01-25 02:50:39.803 | INFO     | wallcat.main:classify:186 - Ignorado: 233465_Papel-de-Parede-Transformers--233465_1280x1024.jpg -> Cinema (AI (60.70%))
+2026-01-25 02:50:40.609 | INFO     | wallcat.main:classify:186 - Ignorado: 233850_Papel-de-Parede-Transformers--233850_1280x1024.jpg -> Cinema (AI (65.92%))
+2026-01-25 02:50:41.269 | INFO     | wallcat.main:classify:186 - Ignorado: 278150_Papel-de-Parede-Knights-of-Amalur-Reckoning_1440x900.jpg -> Digital_Art (AI (77.44%))
+2026-01-25 02:50:42.029 | INFO     | wallcat.main:classify:186 - Ignorado: 3670374-200143-1280.jpg -> Cinema (AI (64.86%))
+2026-01-25 02:50:42.802 | INFO     | wallcat.main:classify:186 - Ignorado: 3670374-200147-1280.jpg -> Pos-apocalipse (AI (89.62%))
+2026-01-25 02:50:43.418 | INFO     | wallcat.main:classify:186 - Ignorado: 3670374-200148-1280.jpg -> Pos-apocalipse (AI (68.30%))
+2026-01-25 02:50:44.181 | INFO     | wallcat.main:classify:186 - Ignorado: 3670374-200152-1280.jpg -> Cinema (AI (65.66%))
+2026-01-25 02:50:44.840 | INFO     | wallcat.main:classify:186 - Ignorado: 46821_Papel-de-Parede-Agua-em-Movimento-3D_1440x900.jpg -> Abstrato (AI (30.52%))
+2026-01-25 02:50:45.756 | INFO     | wallcat.main:classify:186 - Ignorado: 532661-istock-825167430.jpg -> Natureza (AI (61.14%))
+2026-01-25 02:50:46.446 | INFO     | wallcat.main:classify:186 - Ignorado: 57832_Papel-de-Parede-Sim-City-4--57832_1024x768.jpg -> Arquitetura (AI (66.41%))
+2026-01-25 02:50:47.178 | INFO     | wallcat.main:classify:186 - Ignorado: 652686_20120302_screen002.jpg -> Utopia (AI (44.81%))
+2026-01-25 02:50:47.966 | INFO     | wallcat.main:classify:186 - Ignorado: 652686_20120302_screen003.jpg -> Pos-apocalipse (AI (99.99%))
+2026-01-25 02:50:48.586 | INFO     | wallcat.main:classify:186 - Ignorado: 652686_20120302_screen004.jpg -> Pos-apocalipse (AI (99.76%))
+2026-01-25 02:50:49.396 | INFO     | wallcat.main:classify:186 - Ignorado: 652686_20120302_screen008.jpg -> Pos-apocalipse (AI (99.83%))
+2026-01-25 02:51:01.512 | ERROR    | wallcat.main:load_config:90 - Arquivo não encontrado: <red>D:\WORKS\DEV\python\wallcat\config.yaml</red>
+2026-01-25 02:51:01.517 | WARNING  | wallcat.main:default_categories:29 - Usando categorias de fallback.
+2026-01-25 02:51:01.517 | INFO     | wallcat.main:get_clip:21 - Carregando modelo CLIP no dispositivo: CPU
+2026-01-25 02:51:04.096 | INFO     | wallcat.main:classify:147 - Iniciando: C:\Users\helio\OneDrive\Imagens\Wallpapers -> C:\Users\helio\OneDrive\Imagens\Wallpapers
+2026-01-25 02:51:04.098 | INFO     | wallcat.main:classify:149 - MODO SIMULAÇÃO ATIVADO
+2026-01-25 02:51:04.788 | SUCCESS  | wallcat.main:classify:199 - [DRY-RUN] 02547_BG.jpg -> Cinema (AI (84.74%))
+2026-01-25 02:51:05.393 | INFO     | wallcat.main:classify:186 - Ignorado: 1 - NLW #05 - 1920x1080.png -> Abstrato (AI (71.19%))
+2026-01-25 02:51:06.086 | INFO     | wallcat.main:classify:186 - Ignorado: 11151015020182.jpg -> Digital_Art (AI (42.23%))
+2026-01-25 02:51:06.678 | INFO     | wallcat.main:classify:186 - Ignorado: 11151046829183.jpg -> Pos-apocalipse (AI (71.70%))
+2026-01-25 02:51:07.321 | SUCCESS  | wallcat.main:classify:199 - [DRY-RUN] 11151201553187.jpg -> Digital_Art (AI (94.37%))
+2026-01-25 02:51:07.967 | SUCCESS  | wallcat.main:classify:199 - [DRY-RUN] 11151224423188.jpg -> Digital_Art (AI (87.34%))
+2026-01-25 02:51:08.633 | INFO     | wallcat.main:classify:186 - Ignorado: 11151508614195.jpg -> Utopia (AI (70.33%))
+2026-01-25 02:51:09.220 | SUCCESS  | wallcat.main:classify:199 - [DRY-RUN] 11151918778214.jpg -> Digital_Art (AI (96.78%))
+2026-01-25 02:51:09.870 | INFO     | wallcat.main:classify:186 - Ignorado: 11151951023219.jpg -> Pos-apocalipse (AI (56.65%))
+2026-01-25 02:52:03.664 | ERROR    | wallcat.main:load_config:90 - Arquivo não encontrado: <red>D:\WORKS\DEV\python\wallcat\config.yaml</red>
+2026-01-25 02:52:03.667 | WARNING  | wallcat.main:default_categories:29 - Usando categorias de fallback.
+2026-01-25 02:52:03.669 | INFO     | wallcat.main:get_clip:21 - Carregando modelo CLIP no dispositivo: CPU
+2026-01-25 02:52:06.316 | INFO     | wallcat.main:classify:147 - Iniciando: C:\Users\helio\OneDrive\Imagens\Wallpapers -> C:\Users\helio\OneDrive\Imagens\Wallpapers
+2026-01-25 02:52:07.002 | SUCCESS  | wallcat.main:classify:197 - Organizado: 02547_BG.jpg -> Cinema (AI (84.74%))
+2026-01-25 02:52:07.679 | INFO     | wallcat.main:classify:186 - Ignorado: 1 - NLW #05 - 1920x1080.png -> Abstrato (AI (71.19%))
+2026-01-25 02:52:08.547 | INFO     | wallcat.main:classify:186 - Ignorado: 11151015020182.jpg -> Digital_Art (AI (42.23%))
+2026-01-25 02:52:09.565 | INFO     | wallcat.main:classify:186 - Ignorado: 11151046829183.jpg -> Pos-apocalipse (AI (71.70%))
+2026-01-25 02:52:10.448 | SUCCESS  | wallcat.main:classify:197 - Organizado: 11151201553187.jpg -> Digital_Art (AI (94.37%))
+2026-01-25 02:52:11.651 | SUCCESS  | wallcat.main:classify:197 - Organizado: 11151224423188.jpg -> Digital_Art (AI (87.34%))
+2026-01-25 02:52:13.467 | INFO     | wallcat.main:classify:186 - Ignorado: 11151508614195.jpg -> Utopia (AI (70.33%))
+2026-01-25 02:52:15.032 | SUCCESS  | wallcat.main:classify:197 - Organizado: 11151918778214.jpg -> Digital_Art (AI (96.78%))
+2026-01-25 02:52:16.059 | INFO     | wallcat.main:classify:186 - Ignorado: 11151951023219.jpg -> Pos-apocalipse (AI (56.65%))
+2026-01-25 02:52:16.666 | INFO     | wallcat.main:classify:186 - Ignorado: 11152048416224.jpg -> Digital_Art (AI (52.08%))
+2026-01-25 02:52:17.887 | INFO     | wallcat.main:classify:186 - Ignorado: 11152108400225.jpg -> Digital_Art (AI (76.22%))
+2026-01-25 02:52:19.013 | INFO     | wallcat.main:classify:186 - Ignorado: 11152145122231.jpg -> Space (AI (23.24%))
+2026-01-25 02:52:19.948 | INFO     | wallcat.main:classify:186 - Ignorado: 11152210816234.jpg -> Utopia (AI (70.60%))
+2026-01-25 02:52:20.531 | SUCCESS  | wallcat.main:classify:197 - Organizado: 11152242874238.jpg -> Abstrato (AI (95.93%))
+2026-01-25 02:52:21.622 | INFO     | wallcat.main:classify:186 - Ignorado: 11152312889241.jpg -> Space (AI (65.34%))
+2026-01-25 02:52:22.805 | INFO     | wallcat.main:classify:186 - Ignorado: 11152354057246.jpg -> Space (AI (51.08%))
+2026-01-25 02:52:23.817 | SUCCESS  | wallcat.main:classify:197 - Organizado: 11152419345248.jpg -> Minimalista (AI (99.59%))
+2026-01-25 02:52:24.718 | SUCCESS  | wallcat.main:classify:197 - Organizado: 112504_Papel-de-Parede-Transformers--112504_1920x1200.jpg -> Pos-apocalipse (AI (84.56%))
+2026-01-25 02:52:26.056 | INFO     | wallcat.main:classify:186 - Ignorado: 113690_Papel-de-Parede-Resident-Evil-3-A-Extincao-Resident-Evil-Extinction--113690_1280x1024.jpg -> Pos-apocalipse (AI (65.96%))
+2026-01-25 02:52:27.936 | INFO     | wallcat.main:classify:186 - Ignorado: 120315_Papel-de-Parede-Escudo-pegando-fogo_1920x1200.jpg -> Digital_Art (AI (49.37%))
+2026-01-25 02:52:29.319 | SUCCESS  | wallcat.main:classify:197 - Organizado: 12M2610155J50-94422.jpg -> Abstrato (AI (97.88%))
+2026-01-25 02:52:30.141 | INFO     | wallcat.main:classify:186 - Ignorado: 143241_Papel-de-Parede-Transformers--143241_1280x800.jpg -> Cinema (AI (65.03%))
+2026-01-25 02:52:31.082 | INFO     | wallcat.main:classify:186 - Ignorado: 144155_Papel-de-Parede-Transformers--144155_1280x800.jpg -> Cinema (AI (71.36%))
+2026-01-25 02:52:32.529 | INFO     | wallcat.main:classify:186 - Ignorado: 144670_Papel-de-Parede-Homem-de-Ferro-Iron-Man--144670_1280x800.jpg -> Cinema (AI (62.51%))
+2026-01-25 02:52:33.692 | SUCCESS  | wallcat.main:classify:197 - Organizado: 148142_Papel-de-Parede-Homem-de-Ferro-Iron-Man--148142_1280x800.jpg -> Cinema (AI (90.63%))
+2026-01-25 02:52:34.900 | INFO     | wallcat.main:classify:186 - Ignorado: 195523_Papel-de-Parede-Need-For-Speed--195523_1400x1050.jpg -> Pos-apocalipse (AI (72.29%))
+2026-01-25 02:52:36.302 | INFO     | wallcat.main:classify:186 - Ignorado: 2013-03-29 002.jpg -> Pos-apocalipse (AI (76.25%))
+2026-01-25 02:52:37.603 | INFO     | wallcat.main:classify:186 - Ignorado: 2013-03-29 003.jpg -> Ciclismo (AI (34.31%))
+2026-01-25 02:52:39.054 | INFO     | wallcat.main:classify:186 - Ignorado: 2013-04-20 004.jpg -> Cinema (AI (68.72%))
+2026-01-25 02:52:40.219 | INFO     | wallcat.main:classify:186 - Ignorado: 212024_Papel-de-Parede-Led-Zeppelin--212024_1600x1200.jpg -> Ciclismo (AI (30.99%))
+2026-01-25 02:52:41.365 | INFO     | wallcat.main:classify:186 - Ignorado: 233465_Papel-de-Parede-Transformers--233465_1280x1024.jpg -> Cinema (AI (60.70%))
+2026-01-25 02:52:42.546 | INFO     | wallcat.main:classify:186 - Ignorado: 233850_Papel-de-Parede-Transformers--233850_1280x1024.jpg -> Cinema (AI (65.92%))
+2026-01-25 02:52:43.399 | INFO     | wallcat.main:classify:186 - Ignorado: 278150_Papel-de-Parede-Knights-of-Amalur-Reckoning_1440x900.jpg -> Digital_Art (AI (77.44%))
+2026-01-25 02:52:44.342 | INFO     | wallcat.main:classify:186 - Ignorado: 3670374-200143-1280.jpg -> Cinema (AI (64.86%))
+2026-01-25 02:52:45.298 | SUCCESS  | wallcat.main:classify:197 - Organizado: 3670374-200147-1280.jpg -> Pos-apocalipse (AI (89.62%))
+2026-01-25 02:52:46.457 | INFO     | wallcat.main:classify:186 - Ignorado: 3670374-200148-1280.jpg -> Pos-apocalipse (AI (68.30%))
+2026-01-25 02:52:47.497 | INFO     | wallcat.main:classify:186 - Ignorado: 3670374-200152-1280.jpg -> Cinema (AI (65.66%))
+2026-01-25 02:52:48.291 | INFO     | wallcat.main:classify:186 - Ignorado: 46821_Papel-de-Parede-Agua-em-Movimento-3D_1440x900.jpg -> Abstrato (AI (30.52%))
+2026-01-25 02:52:49.636 | INFO     | wallcat.main:classify:186 - Ignorado: 532661-istock-825167430.jpg -> Natureza (AI (61.14%))
+2026-01-25 02:52:50.444 | INFO     | wallcat.main:classify:186 - Ignorado: 57832_Papel-de-Parede-Sim-City-4--57832_1024x768.jpg -> Arquitetura (AI (66.41%))
+2026-01-25 02:52:51.226 | INFO     | wallcat.main:classify:186 - Ignorado: 652686_20120302_screen002.jpg -> Utopia (AI (44.81%))
+2026-01-25 02:52:52.093 | SUCCESS  | wallcat.main:classify:197 - Organizado: 652686_20120302_screen003.jpg -> Pos-apocalipse (AI (99.99%))
+2026-01-25 02:52:53.181 | SUCCESS  | wallcat.main:classify:197 - Organizado: 652686_20120302_screen004.jpg -> Pos-apocalipse (AI (99.76%))
+2026-01-25 02:52:54.805 | SUCCESS  | wallcat.main:classify:197 - Organizado: 652686_20120302_screen008.jpg -> Pos-apocalipse (AI (99.83%))
+2026-01-25 02:52:56.544 | SUCCESS  | wallcat.main:classify:197 - Organizado: 652686_20120302_screen010.jpg -> Pos-apocalipse (AI (98.21%))
+2026-01-25 02:52:57.939 | SUCCESS  | wallcat.main:classify:197 - Organizado: 652686_20120302_screen013.jpg -> Pos-apocalipse (AI (90.45%))
+2026-01-25 02:52:59.720 | INFO     | wallcat.main:classify:186 - Ignorado: 652686_20120302_screen018.jpg -> Pos-apocalipse (AI (71.16%))
+2026-01-25 02:53:01.459 | SUCCESS  | wallcat.main:classify:197 - Organizado: 652686_20120302_screen020.jpg -> Pos-apocalipse (AI (81.31%))
+2026-01-25 02:53:02.882 | INFO     | wallcat.main:classify:186 - Ignorado: 652686_20120302_screen028.jpg -> Pos-apocalipse (AI (74.87%))
+2026-01-25 02:53:04.795 | INFO     | wallcat.main:classify:186 - Ignorado: 70973_Papel-de-Parede-Transformers-Autobots-Ironhide-e-Jazz_1920x1200.jpg -> Pos-apocalipse (AI (60.08%))
+2026-01-25 02:53:06.302 | SUCCESS  | wallcat.main:classify:197 - Organizado: 72190_Papel-de-Parede-Homem-Aranha-3-Spiderman-3--72190_1280x1024.jpg -> Cinema (AI (92.50%))
+2026-01-25 02:53:07.526 | SUCCESS  | wallcat.main:classify:197 - Organizado: 73388_Papel-de-Parede-Transformers-Optimus-Prime--73388_1024x768.jpg -> Cinema (AI (94.57%))
+2026-01-25 02:53:08.978 | INFO     | wallcat.main:classify:186 - Ignorado: 8vcasy.jpg -> Abstrato (AI (58.02%))
+2026-01-25 02:53:10.685 | INFO     | wallcat.main:classify:186 - Ignorado: BG_superbanner_homeGames_Gears3.jpg -> Pos-apocalipse (AI (60.86%))
+2026-01-25 02:53:12.195 | INFO     | wallcat.main:classify:186 - Ignorado: brasil_quebrado.jpg -> Utopia (AI (73.67%))
+2026-01-25 02:53:13.711 | INFO     | wallcat.main:classify:186 - Ignorado: Brazil-Flag-Wallpapers-411.jpg -> Utopia (AI (22.62%))
+2026-01-25 02:53:14.906 | INFO     | wallcat.main:classify:186 - Ignorado: BXK139117_brasil-hexa800.jpg -> Abstrato (AI (42.83%))
+2026-01-25 02:53:16.068 | SUCCESS  | wallcat.main:classify:197 - Organizado: coffee_cup_wooden_surface_106291_1920x1080.jpg -> Minimalista (AI (82.87%))
+2026-01-25 02:53:18.216 | INFO     | wallcat.main:classify:186 - Ignorado: CT.png -> Tecnologia (AI (54.13%))
+2026-01-25 02:53:20.566 | SUCCESS  | wallcat.main:classify:197 - Organizado: Desert-Wallpaper-Image-Picture.jpg -> Pos-apocalipse (AI (94.01%))
+2026-01-25 02:53:21.611 | INFO     | wallcat.main:classify:186 - Ignorado: dTzega.jpg -> Utopia (AI (39.96%))
+2026-01-25 02:53:22.961 | INFO     | wallcat.main:classify:186 - Ignorado: escalpo2-1920x1080.jpg -> Cinema (AI (41.57%))
+2026-01-25 02:53:26.076 | SUCCESS  | wallcat.main:classify:197 - Organizado: fallout4.jpg -> Pos-apocalipse (AI (99.82%))
+2026-01-25 02:53:27.907 | SUCCESS  | wallcat.main:classify:197 - Organizado: fallout_scene.jpg -> Pos-apocalipse (AI (99.68%))
+2026-01-25 02:53:29.700 | SUCCESS  | wallcat.main:classify:197 - Organizado: fallout_survivor.jpg -> Pos-apocalipse (AI (92.17%))
+2026-01-25 02:53:30.887 | INFO     | wallcat.main:classify:186 - Ignorado: GB-wp1.jpg -> Natureza (AI (66.35%))
+2026-01-25 02:53:32.413 | INFO     | wallcat.main:classify:186 - Ignorado: GB-wp5.jpg -> Natureza (AI (65.99%))
+2026-01-25 02:53:33.571 | INFO     | wallcat.main:classify:186 - Ignorado: gcWu6A.jpg -> Tecnologia (AI (45.10%))
+2026-01-25 02:53:34.643 | INFO     | wallcat.main:classify:186 - Ignorado: Green-Wallpaper-Background-Android.jpg -> Cinema (AI (29.90%))
+2026-01-25 02:53:35.404 | INFO     | wallcat.main:classify:186 - Ignorado: GTJMaD.jpg -> Abstrato (AI (71.78%))
+2026-01-25 02:53:36.267 | INFO     | wallcat.main:classify:186 - Ignorado: IgniteLab#04-1920x1080.png -> Minimalista (AI (58.44%))
+2026-01-25 02:53:37.114 | SUCCESS  | wallcat.main:classify:197 - Organizado: img1.jpg -> Abstrato (AI (83.70%))
+2026-01-25 02:53:37.873 | INFO     | wallcat.main:classify:186 - Ignorado: img2.jpg -> Minimalista (AI (29.48%))
+2026-01-25 02:53:38.946 | INFO     | wallcat.main:classify:186 - Ignorado: img3.jpg -> Abstrato (AI (31.33%))
+2026-01-25 02:53:40.980 | SUCCESS  | wallcat.main:classify:197 - Organizado: IMG_20151229_224622.jpg -> Cinema (AI (92.92%))
+2026-01-25 02:53:42.144 | SUCCESS  | wallcat.main:classify:197 - Organizado: img_normal.jpg -> Pos-apocalipse (AI (99.76%))
+2026-01-25 02:53:43.065 | SUCCESS  | wallcat.main:classify:197 - Organizado: kCGlrT.jpg -> Cinema (AI (91.33%))
+2026-01-25 02:53:44.127 | INFO     | wallcat.main:classify:186 - Ignorado: last-17mai2012-2.jpg -> Pos-apocalipse (AI (67.07%))
+2026-01-25 02:53:45.461 | SUCCESS  | wallcat.main:classify:197 - Organizado: Map-Wallpaper-Black-Art.jpg -> Tecnologia (AI (80.32%))
+2026-01-25 02:53:46.366 | INFO     | wallcat.main:classify:186 - Ignorado: med_gallery_118_24967.jpg -> Ciclismo (AI (41.52%))
+2026-01-25 02:53:47.666 | INFO     | wallcat.main:classify:186 - Ignorado: NLW IA- 1920x1080.png -> Cinema (AI (59.13%))
+2026-01-25 02:53:48.774 | INFO     | wallcat.main:classify:186 - Ignorado: oeGmdD.jpg -> Minimalista (AI (41.95%))
+2026-01-25 02:53:49.552 | INFO     | wallcat.main:classify:186 - Ignorado: oIpwxeeSPy1cnwYpqJ1w_Dufer Collateral test.jpg -> Tecnologia (AI (49.31%))
+2026-01-25 02:53:50.776 | INFO     | wallcat.main:classify:186 - Ignorado: pexels-sohail-na-807598 (1).jpg -> Natureza (AI (50.86%))
+2026-01-25 02:53:51.908 | INFO     | wallcat.main:classify:186 - Ignorado: photo-1452421822248-d4c2b47f0c81.jpg -> Tecnologia (AI (23.68%))
+2026-01-25 02:53:51.911 | INFO     | wallcat.main:classify:186 - Ignorado: Poster-Craques-SELECAO-BRASILEIRA-todos-os-tempos.jpg -> Cinema (KEYWORD)
+2026-01-25 02:53:52.738 | INFO     | wallcat.main:classify:186 - Ignorado: Power-Logo-HD-Wallpaper-Blue-Desktop-For-Windows.jpg -> Tecnologia (AI (51.81%))
+2026-01-25 02:53:53.511 | INFO     | wallcat.main:classify:186 - Ignorado: q1EWxp.jpg -> Digital_Art (AI (69.45%))
+2026-01-25 02:53:54.348 | INFO     | wallcat.main:classify:186 - Ignorado: road_marking_cloudy_124093_1920x1080.jpg -> Cinema (AI (54.06%))
+2026-01-25 02:53:55.158 | INFO     | wallcat.main:classify:186 - Ignorado: sea_horizon_dark_128627_1920x1080.jpg -> Minimalista (AI (47.90%))
+2026-01-25 02:53:55.945 | INFO     | wallcat.main:classify:186 - Ignorado: Shoes-Black-Wallpaper-Image-Picture.jpg -> Minimalista (AI (60.93%))
+2026-01-25 02:53:56.876 | INFO     | wallcat.main:classify:186 - Ignorado: soccer-field-Wallpaper-HD-number-n2G.jpg -> Minimalista (AI (61.96%))
+2026-01-25 02:53:56.878 | INFO     | wallcat.main:classify:186 - Ignorado: Space.jpg -> Space (KEYWORD)
+2026-01-25 02:53:56.880 | INFO     | wallcat.main:classify:186 - Ignorado: SPBMX.png -> Ciclismo (KEYWORD)
+2026-01-25 02:53:57.756 | SUCCESS  | wallcat.main:classify:197 - Organizado: SQn6zv.jpg -> Pos-apocalipse (AI (99.95%))
+2026-01-25 02:53:59.772 | INFO     | wallcat.main:classify:186 - Ignorado: the-last-of-us-part-ii-reveal-screen-02-ps4-us-10jul18.jpg -> Cinema (AI (60.40%))
+2026-01-25 02:54:01.304 | SUCCESS  | wallcat.main:classify:197 - Organizado: the-last-of-us-part-ii-reveal-screen-03-ps4-us-10jul18.jfif -> Pos-apocalipse (AI (94.08%))
+2026-01-25 02:54:03.076 | SUCCESS  | wallcat.main:classify:197 - Organizado: the-last-of-us-part-ii-reveal-screen-03-ps4-us-10jul18.jpg -> Pos-apocalipse (AI (96.39%))
+2026-01-25 02:54:05.070 | INFO     | wallcat.main:classify:186 - Ignorado: tumblr_l21a9h5Bhh1qbkusho1_1280.png -> Abstrato (AI (75.98%))
+2026-01-25 02:54:07.134 | SUCCESS  | wallcat.main:classify:197 - Organizado: tumblr_l22khnPK7v1qbkusho1_1280.png -> Abstrato (AI (88.02%))
+2026-01-25 02:54:08.655 | INFO     | wallcat.main:classify:186 - Ignorado: US-wp4.jpg -> Natureza (AI (40.49%))
+2026-01-25 02:54:10.150 | INFO     | wallcat.main:classify:186 - Ignorado: US-wp5.jpg -> Natureza (AI (44.69%))
+2026-01-25 02:54:11.603 | INFO     | wallcat.main:classify:186 - Ignorado: v0Uk6O.jpg -> Cinema (AI (31.30%))
+2026-01-25 02:54:13.169 | INFO     | wallcat.main:classify:186 - Ignorado: violao.jpg -> Minimalista (AI (45.10%))
+2026-01-25 02:54:14.213 | INFO     | wallcat.main:classify:186 - Ignorado: vladstudio_worldinversed_1280x1024.jpg -> Pos-apocalipse (AI (79.41%))
+2026-01-25 02:54:15.041 | INFO     | wallcat.main:classify:186 - Ignorado: Wallpaper - 1920x1080.png -> Minimalista (AI (37.31%))
+2026-01-25 02:54:15.853 | INFO     | wallcat.main:classify:186 - Ignorado: wallpaper-1059033.jpg -> Cinema (AI (48.96%))
+2026-01-25 02:54:16.707 | INFO     | wallcat.main:classify:186 - Ignorado: wallpaper-1192224.jpg -> Tecnologia (AI (38.52%))
+2026-01-25 02:54:17.463 | INFO     | wallcat.main:classify:186 - Ignorado: wallpaper-1347002.jpg -> Cinema (AI (44.28%))
+2026-01-25 02:54:18.292 | INFO     | wallcat.main:classify:186 - Ignorado: wallpaper-1953033.jpg -> Utopia (AI (37.38%))
+2026-01-25 02:54:19.192 | INFO     | wallcat.main:classify:186 - Ignorado: wallpaper-1994414.jpg -> Digital_Art (AI (79.89%))
+2026-01-25 02:54:19.967 | INFO     | wallcat.main:classify:186 - Ignorado: wallpaper-2038544.jpg -> Pos-apocalipse (AI (41.15%))
+2026-01-25 02:54:20.805 | INFO     | wallcat.main:classify:186 - Ignorado: wallpaper-2082641.jpg -> Pos-apocalipse (AI (45.37%))
+2026-01-25 02:54:21.780 | INFO     | wallcat.main:classify:186 - Ignorado: wallpaper-2467670.png -> Utopia (AI (26.16%))
+2026-01-25 02:54:22.567 | INFO     | wallcat.main:classify:186 - Ignorado: wallpaper-2655904.jpg -> Utopia (AI (67.32%))
+2026-01-25 02:54:23.377 | INFO     | wallcat.main:classify:186 - Ignorado: wallpaper-631093.jpg -> Anime (AI (43.86%))
+2026-01-25 02:54:23.393 | ERROR    | wallcat.main:classify:182 - IA falhou em classificar o arquivo `wallpaper-insignia-1366x768.jpg`: image file is truncated (1 bytes not processed)
+2026-01-25 02:54:24.171 | INFO     | wallcat.main:classify:186 - Ignorado: wallpaper-insignia.jpg -> Minimalista (AI (55.13%))
+2026-01-25 02:54:24.931 | INFO     | wallcat.main:classify:186 - Ignorado: wallpaper-insignia2.jpg -> Abstrato (AI (42.00%))
+2026-01-25 02:54:25.758 | INFO     | wallcat.main:classify:186 - Ignorado: Wallpaper.jpg -> Digital_Art (AI (53.27%))
+2026-01-25 02:54:26.538 | INFO     | wallcat.main:classify:186 - Ignorado: Wallpapers-room_com___Brazil_Leather_Wallpaper_by_igorrcarvalho_1440x900.jpg -> Utopia (AI (52.96%))
+2026-01-25 02:54:27.368 | INFO     | wallcat.main:classify:186 - Ignorado: wallpaper_1175390050.jpg -> Utopia (AI (63.86%))
+2026-01-25 02:54:28.221 | SUCCESS  | wallcat.main:classify:197 - Organizado: wallpaper_1584665693.jpg -> Pos-apocalipse (AI (82.29%))
+2026-01-25 02:54:28.968 | INFO     | wallcat.main:classify:186 - Ignorado: wallpaper_1877304686.jpg -> Pos-apocalipse (AI (26.45%))
+2026-01-25 02:54:30.543 | INFO     | wallcat.main:classify:186 - Ignorado: wallpaper_2058906785.jpg -> Pos-apocalipse (AI (36.28%))
+2026-01-25 02:54:31.452 | SUCCESS  | wallcat.main:classify:197 - Organizado: wallpaper_28708454.jpg -> Pos-apocalipse (AI (96.94%))
+2026-01-25 02:54:33.456 | SUCCESS  | wallcat.main:classify:197 - Organizado: wallpaper_632497876.jpg -> Tecnologia (AI (81.84%))
+2026-01-25 02:54:33.459 | INFO     | wallcat.main:classify:186 - Ignorado: wallpaper_yourFuture.png -> Utopia (KEYWORD)
+2026-01-25 02:54:34.901 | INFO     | wallcat.main:classify:186 - Ignorado: windows-8-m3-1306499269.jpg -> Digital_Art (AI (52.95%))
+2026-01-25 02:54:36.446 | INFO     | wallcat.main:classify:186 - Ignorado: Windows_8_Bliss_by_rehsup_.jpg -> Minimalista (AI (65.83%))
+2026-01-25 02:54:38.159 | INFO     | wallcat.main:classify:186 - Ignorado: world-of-tanks-3840x2160-22118.jpg -> Digital_Art (AI (61.77%))
+2026-01-25 02:54:39.368 | SUCCESS  | wallcat.main:classify:197 - Organizado: wp-react_1920x1080.png -> Minimalista (AI (88.35%))
+2026-01-25 02:54:40.840 | SUCCESS  | wallcat.main:classify:197 - Organizado: wp2015877-dystopia-wallpapers.jpg -> Pos-apocalipse (AI (95.24%))
+2026-01-25 02:54:42.706 | INFO     | wallcat.main:classify:186 - Ignorado: wp2015884-dystopia-wallpapers.jpg -> Pos-apocalipse (AI (48.66%))
+2026-01-25 02:54:43.908 | SUCCESS  | wallcat.main:classify:197 - Organizado: wp2015886-dystopia-wallpapers.png -> Pos-apocalipse (AI (96.49%))
+2026-01-25 02:54:45.393 | SUCCESS  | wallcat.main:classify:197 - Organizado: wp2015892-dystopia-wallpapers.jpg -> Pos-apocalipse (AI (88.76%))
+2026-01-25 02:54:47.170 | SUCCESS  | wallcat.main:classify:197 - Organizado: wp2015903-dystopia-wallpapers.jpg -> Pos-apocalipse (AI (99.53%))
+2026-01-25 02:54:48.569 | SUCCESS  | wallcat.main:classify:197 - Organizado: wp2015908-dystopia-wallpapers.jpg -> Pos-apocalipse (AI (93.04%))
+2026-01-25 02:54:50.264 | SUCCESS  | wallcat.main:classify:197 - Organizado: wp2015921-dystopia-wallpapers.jpg -> Pos-apocalipse (AI (82.21%))
+2026-01-25 02:54:51.944 | SUCCESS  | wallcat.main:classify:197 - Organizado: wp2015927-dystopia-wallpapers.jpg -> Pos-apocalipse (AI (93.88%))
+2026-01-25 02:54:53.587 | INFO     | wallcat.main:classify:186 - Ignorado: wp2015930-dystopia-wallpapers.jpg -> Pos-apocalipse (AI (30.86%))
+2026-01-25 02:54:55.049 | INFO     | wallcat.main:classify:186 - Ignorado: wp2015936-dystopia-wallpapers.jpg -> Pos-apocalipse (AI (70.46%))
+2026-01-25 02:54:56.545 | INFO     | wallcat.main:classify:186 - Ignorado: wp2015954-dystopia-wallpapers.jpg -> Pos-apocalipse (AI (65.68%))
+2026-01-25 02:54:58.694 | INFO     | wallcat.main:classify:186 - Ignorado: wp2015992.jpg -> Pos-apocalipse (AI (72.60%))
+2026-01-25 02:54:58.699 | INFO     | wallcat.main:classify:186 - Ignorado: Yellow-Art-Wallpaper-Background-PC.jpg -> Tecnologia (KEYWORD)
+2026-01-25 02:54:59.734 | INFO     | wallcat.main:classify:186 - Ignorado: Yellow-Wallpaper-Image-Picture.jpg -> Minimalista (AI (72.05%))
+2026-01-25 02:55:00.614 | SUCCESS  | wallcat.main:classify:197 - Organizado: _imagens_wallpapers_replicas_3_6_3296.1280x1024.jpg -> Pos-apocalipse (AI (99.76%))
+2026-01-25 02:55:01.515 | SUCCESS  | wallcat.main:classify:197 - Organizado: _imagens_wallpapers_replicas_4_4_4124.2048x768.jpg -> Pos-apocalipse (AI (90.93%))
+2026-01-25 02:55:03.041 | SUCCESS  | wallcat.main:classify:197 - Organizado: _imagens_wallpapers_replicas_5_1_5611.1680x1050.jpg -> Utopia (AI (82.40%))
+2026-01-25 02:55:04.710 | SUCCESS  | wallcat.main:classify:197 - Organizado: _imagens_wallpapers_replicas_5_1_5891.1280x800.jpg -> Pos-apocalipse (AI (88.68%))
+2026-01-25 02:55:06.311 | SUCCESS  | wallcat.main:classify:197 - Organizado: _imagens_wallpapers_replicas_5_2_5872.1440x900.jpg -> Pos-apocalipse (AI (99.31%))
+2026-01-25 02:55:08.220 | SUCCESS  | wallcat.main:classify:197 - Organizado: _imagens_wallpapers_replicas_7_6_7066.1152x864.jpg -> Ciclismo (AI (85.52%))
+2026-01-25 02:55:08.260 | INFO     | wallcat.main:classify:205 - ✨ Processo concluído.
