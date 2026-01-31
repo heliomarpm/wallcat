@@ -43,7 +43,7 @@ dev = [
 ]
 
 [project.scripts]
-wallcat = "wallcat.main:main"  # executable: uv run wallcat classify ./wallpapers --mode hybrid
+wallcat = "wallcat.main:main"  # executable: uv run wallcat "C:\Users\helio\OneDrive\Imagens\Wallpapers"  --min-conf .8
 
 [project.urls]
 Homepage = "https://navto.me/heliomarpm/"

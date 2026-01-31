@@ -109,22 +109,30 @@ def obter_categoria_por_nome(nome_arquivo: str, categorias_config: dict) -> dict
     return None
 
 
-@click.group()
-def main():
-    """Wallcat: IA Wallpaper Cataloger powered by CLIP & Loguru."""
-    logger.remove()  # Remove o log padrão para evitar duplicidade no console
-    logger.add(lambda msg: click.echo(msg, nl=False), colorize=True, level="INFO")
-    logger.add("wallcat.log", rotation="500 MB", level="INFO")
+# @click.group()
+# def main_old():
+#     """Wallcat: IA Wallpaper Cataloger powered by CLIP & Loguru."""
+#     logger.remove()  # Remove o log padrão para evitar duplicidade no console
+#     logger.add(lambda msg: click.echo(msg, nl=False), colorize=True, level="INFO")
+#     logger.add("wallcat.log", rotation="500 MB", level="INFO")
 
 
-@main.command()
+# @main.command()
+@click.command()
 @click.argument("source", type=click.Path(exists=True))
 @click.option("--output", "-o", default=None, help="Pasta de destino.")
 @click.option("--config", "-c", default="config.yaml", help="Caminho para o arquivo YAML de categorias.")
 @click.option("--min-conf", default=0.60, help="Confiança mínima para a IA mover arquivos (0.0 a 1.0)")
 @click.option("--dry-run", is_flag=True, help="Simula sem mover arquivos.")
-def classify(source: str, output: str, config: str, min_conf: float, dry_run) -> None:
-    """Classifica imagens usando busca híbrida: Keywords + IA CLIP."""
+def main(source: str, output: str, config: str, min_conf: float, dry_run) -> None:
+    """Wallcat: IA Wallpaper Cataloger.
+
+    Classifica imagens usando busca híbrida: Keywords + IA CLIP.
+    """
+    # Configuração do Loguru (movida para dentro do comando principal)
+    logger.remove()  # Remove o log padrão para evitar duplicidade no console
+    logger.add(lambda msg: click.echo(msg, nl=False), colorize=True, level="INFO")
+    logger.add("wallcat.log", rotation="500 MB", level="INFO")
 
     source_path = Path(source).resolve()
     output_path = Path(output).resolve() if output else source_path
